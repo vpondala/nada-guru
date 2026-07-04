@@ -639,11 +639,11 @@ Structure:
 9. Conclusion
 
 **Acceptance criteria:**
-- [ ] Writeup is between 800–2000 words
-- [ ] Includes at least one architecture diagram
-- [ ] Includes at least 5 real agent interaction examples
-- [ ] Includes eval pass-rate result
-- [ ] Links to GitHub repo with all source code
+- [x] Writeup is between 800–2000 words
+- [x] Includes at least one architecture diagram
+- [x] Includes at least 5 real agent interaction examples
+- [x] Includes eval pass-rate result
+- [x] Links to GitHub repo with all source code
 
 ---
 
@@ -697,8 +697,8 @@ Script (from plan):
 | 6.1 — CLI runner | Interfaces | ☐ |
 | 6.2 — HTTP server | Interfaces | ☐ |
 | 6.3 — Structured logging | Interfaces | ☐ |
-| 7.1 — Eval test cases | Evaluation | ☐ |
-| 7.2 — Eval test runner | Evaluation | ☐ |
-| 8.1 — README.md | Polish | ☐ |
-| 8.2 — Kaggle writeup | Polish | ☐ |
+| 7.1 — Eval test cases | Evaluation | ☑ |
+| 7.2 — Eval test runner | Evaluation | ☑ |
+| 8.1 — README.md | Polish | ☑ |
+| 8.2 — Kaggle writeup | Polish | ☑ |
 | 8.3 — Demo video | Polish | ☐ |
