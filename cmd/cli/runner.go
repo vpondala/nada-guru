@@ -6,13 +6,19 @@ import (
 	"context"
 	"flag"
 	"fmt"
+	"log/slog"
 	"os"
 	"os/signal"
 	"strings"
 	"syscall"
+	"time"
 
 	"github.com/vpondala/nada-guru/agents"
 	"github.com/vpondala/nada-guru/knowledge"
+	"google.golang.org/adk/agent"
+	"google.golang.org/adk/runner"
+	"google.golang.org/adk/session"
+	"google.golang.org/genai"
 )
 
 const banner = `
@@ -29,7 +35,7 @@ var port = flag.Int("port", 8080, "HTTP server port")
 
 // Run starts the interactive CLI loop.
 func Run() error {
-	fmt.Println(banner)
+	fmt.Print(banner)
 	fmt.Println("Type your question, or 'quit' to exit.")
 	fmt.Println(strings.Repeat("─", 60))
 
@@ -38,9 +44,19 @@ func Run() error {
 		return fmt.Errorf("failed to load knowledge base: %w", err)
 	}
 
-	agent, err := agents.New(store)
+	rootAgent, err := agents.New(store)
 	if err != nil {
 		return fmt.Errorf("failed to create agent: %w", err)
+	}
+
+	r, err := runner.New(runner.Config{
+		AppName:           "nada-guru-cli",
+		Agent:             rootAgent,
+		SessionService:    session.InMemoryService(),
+		AutoCreateSession: true,
+	})
+	if err != nil {
+		return fmt.Errorf("failed to create runner: %w", err)
 	}
 
 	reader := bufio.NewReader(os.Stdin)
@@ -71,11 +87,57 @@ func Run() error {
 		}
 
 		ctx := context.Background()
-		// In a real implementation, this would invoke the agent.
-		// For now, just acknowledge input.
-		_ = agent
-		_ = ctx
-		fmt.Printf("Guru > [agent not yet wired in CLI runner]\n")
+		start := time.Now()
+		msg := genai.NewContentFromText(input, genai.RoleUser)
+
+		fmt.Print("Guru > ")
+		var responseText strings.Builder
+		var agentUsed = "nada_guru"
+		var toolsCalled = []string{}
+		var runErr error
+
+		for event, err := range r.Run(ctx, "cli-user", "cli-session", msg, agent.RunConfig{}) {
+			if err != nil {
+				runErr = err
+				fmt.Printf("\n[Error: %v]\n", err)
+				break
+			}
+			if event == nil {
+				continue
+			}
+			if event.Author != "" && event.Author != "user" {
+				agentUsed = event.Author
+			}
+			if event.LLMResponse.Content != nil {
+				for _, part := range event.LLMResponse.Content.Parts {
+					if part == nil {
+						continue
+					}
+					if part.Text != "" && !part.Thought {
+						fmt.Print(part.Text)
+						responseText.WriteString(part.Text)
+					}
+					if part.FunctionCall != nil {
+						toolsCalled = append(toolsCalled, part.FunctionCall.Name)
+					}
+				}
+			}
+		}
+		fmt.Println()
+
+		var errStr any = nil
+		if runErr != nil {
+			errStr = runErr.Error()
+		}
+
+		slog.Info("agent invocation completed",
+			"agent", agentUsed,
+			"query", input,
+			"tools_called", toolsCalled,
+			"latency_ms", time.Since(start).Milliseconds(),
+			"session_id", "cli-session",
+			"error", errStr,
+		)
 	}
 
 	return nil
