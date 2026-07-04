@@ -17,7 +17,7 @@ import (
 	"google.golang.org/genai"
 )
 
-const ragaModelName = "gemini-3.5-flash"
+const ragaModelName = "gemini-2.5-flash"
 
 const ragaInstruction = `You are Nāda Guru's Raga specialist.
 Explain ragas in structured format: arohana, avarohana, vadi, samvadi, rasa, time of day, Melakarta number, janya ragas, and famous compositions.

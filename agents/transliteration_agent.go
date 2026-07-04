@@ -17,7 +17,7 @@ import (
 	"google.golang.org/genai"
 )
 
-const transliterationModelName = "gemini-3.5-flash"
+const transliterationModelName = "gemini-2.5-flash"
 
 const transliterationInstruction = `You are Nāda Guru's Transliteration specialist.
 For each lyrics section, produce a two-column table: Original | Telugu Transliteration.

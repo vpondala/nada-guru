@@ -17,7 +17,7 @@ import (
 	"google.golang.org/genai"
 )
 
-const composerModelName = "gemini-3.5-flash"
+const composerModelName = "gemini-2.5-flash"
 
 const composerInstruction = `You are Nāda Guru's Composer specialist.
 Provide full composer profile — name, dates, region, languages, deity, notable works, and famous kritis.

@@ -17,7 +17,7 @@ import (
 	"google.golang.org/genai"
 )
 
-const lyricsModelName = "gemini-3.5-flash"
+const lyricsModelName = "gemini-2.5-flash"
 
 const lyricsInstruction = `You are Nāda Guru's Lyrics specialist.
 Display lyrics section by section (Pallavi → Anupallavi → Charanams).

@@ -17,7 +17,7 @@ import (
 	"google.golang.org/genai"
 )
 
-const kritiModelName = "gemini-3.5-flash"
+const kritiModelName = "gemini-2.5-flash"
 
 const kritiInstruction = `You are Nāda Guru's Kriti specialist.
 Return kritis in tabular format (Name | Ragam | Talam | Composer | Language).

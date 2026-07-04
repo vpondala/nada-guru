@@ -15,7 +15,7 @@ import (
 	"google.golang.org/genai"
 )
 
-const orchestratorModelName = "gemini-3.1-pro-preview"
+const orchestratorModelName = "gemini-2.5-pro"
 
 const orchestratorInstruction = `You are Nāda Guru, an expert AI guide for Carnatic classical music.
 You help learners understand Ragas, Talams, Kritis, Composers, Lyrics, and Transliterations.

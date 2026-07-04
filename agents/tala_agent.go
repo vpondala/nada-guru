@@ -17,7 +17,7 @@ import (
 	"google.golang.org/genai"
 )
 
-const talaModelName = "gemini-3.5-flash"
+const talaModelName = "gemini-2.5-flash"
 
 const talaInstruction = `You are Nāda Guru's Tala specialist.
 Explain talas with anga breakdown, total beats, clap pattern, and examples.
