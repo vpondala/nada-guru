@@ -38,6 +38,8 @@ func NewSearchAgent(name string) (agent.Agent, error) {
 		Tools: []tool.Tool{
 			geminitool.GoogleSearch{},
 		},
+		DisallowTransferToParent: true,
+		DisallowTransferToPeers:  true,
 	})
 	if err != nil {
 		return nil, err
