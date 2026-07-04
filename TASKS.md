@@ -19,9 +19,9 @@ Each task maps to one or more requirements via `REQ-XXX` references.
 - `agents/`, `tools/`, `knowledge/`, `session/`, `eval/` — empty directories with `.gitkeep`
 
 **Acceptance criteria:**
-- [ ] `go build ./...` succeeds with no errors
-- [ ] `go run main.go --mode=cli` prints a startup banner and exits cleanly
-- [ ] `go run main.go --mode=server` starts an HTTP listener on port 8080 and exits cleanly on SIGINT
+- [x] `go build ./...` succeeds with no errors
+- [x] `go run main.go --mode=cli` prints a startup banner and exits cleanly
+- [x] `go run main.go --mode=server` starts an HTTP listener on port 8080 and exits cleanly on SIGINT
 
 ---
 
@@ -36,9 +36,9 @@ go get google.golang.org/genai@latest
 ```
 
 **Acceptance criteria:**
-- [ ] `import "google.golang.org/adk/agent/llmagent"` compiles without error
-- [ ] `import "google.golang.org/genai"` compiles without error
-- [ ] `go mod tidy` leaves no unused dependencies
+- [x] `import "google.golang.org/adk/agent/llmagent"` compiles without error
+- [x] `import "google.golang.org/genai"` compiles without error
+- [x] `go mod tidy` leaves no unused dependencies
 
 ---
 
