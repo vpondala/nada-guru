@@ -2,8 +2,9 @@
 //
 // Usage:
 //
-//	go run main.go --mode=cli     # interactive CLI
-//	go run main.go --mode=server  # HTTP REST server on PORT (default 8080)
+//	go run main.go --mode=cli      # interactive CLI
+//	go run main.go --mode=server   # HTTP REST server on PORT (default 8080)
+//	go run ./cmd/launcher          # web UI for agent debugging (ADK launcher)
 package main
 
 import (
