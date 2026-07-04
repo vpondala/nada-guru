@@ -12,7 +12,6 @@ import (
 	"google.golang.org/adk/agent/llmagent"
 	"google.golang.org/adk/model/gemini"
 	"google.golang.org/adk/tool"
-	"google.golang.org/adk/tool/functiontool"
 	"google.golang.org/genai"
 )
 
@@ -34,111 +33,6 @@ func NewKritiAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 		return nil, err
 	}
 
-	searchKritisTool, err := functiontool.New(functiontool.Config{
-		Name:        "search_kritis",
-		Description: "Search kritis by raga, tala, composer, or language",
-	}, func(ctx agent.ToolContext, input struct {
-		Ragam    string `json:"ragam,omitempty"`
-		Talam    string `json:"talam,omitempty"`
-		Composer string `json:"composer,omitempty"`
-		Language string `json:"language,omitempty"`
-		Tag      string `json:"tag,omitempty"`
-	}) (struct {
-		Results []struct {
-			ID       string `json:"id"`
-			Name     string `json:"name"`
-			Ragam    string `json:"ragam"`
-			Talam    string `json:"talam"`
-			Composer string `json:"composer"`
-			Language string `json:"language"`
-		} `json:"results"`
-		Error string `json:"error,omitempty"`
-	}, error) {
-		results, err := tools.SearchKritis(ctx, knowledge.KritiFilter{
-			Ragam:    input.Ragam,
-			Talam:    input.Talam,
-			Composer: input.Composer,
-			Language: input.Language,
-			Tag:      input.Tag,
-		})
-		if err != nil {
-			return struct {
-				Results []struct {
-					ID       string `json:"id"`
-					Name     string `json:"name"`
-					Ragam    string `json:"ragam"`
-					Talam    string `json:"talam"`
-					Composer string `json:"composer"`
-					Language string `json:"language"`
-				} `json:"results"`
-				Error string `json:"error,omitempty"`
-			}{Error: err.Error()}, nil
-		}
-		out := make([]struct {
-			ID       string `json:"id"`
-			Name     string `json:"name"`
-			Ragam    string `json:"ragam"`
-			Talam    string `json:"talam"`
-			Composer string `json:"composer"`
-			Language string `json:"language"`
-		}, len(results))
-		for i, k := range results {
-			out[i] = struct {
-				ID       string `json:"id"`
-				Name     string `json:"name"`
-				Ragam    string `json:"ragam"`
-				Talam    string `json:"talam"`
-				Composer string `json:"composer"`
-				Language string `json:"language"`
-			}{ID: k.ID, Name: k.Name, Ragam: k.Ragam, Talam: k.Talam, Composer: k.Composer, Language: k.Language}
-		}
-		return struct {
-			Results []struct {
-				ID       string `json:"id"`
-				Name     string `json:"name"`
-				Ragam    string `json:"ragam"`
-				Talam    string `json:"talam"`
-				Composer string `json:"composer"`
-				Language string `json:"language"`
-			} `json:"results"`
-			Error string `json:"error,omitempty"`
-		}{Results: out}, nil
-	})
-	if err != nil {
-		return nil, err
-	}
-
-	lookupKritiTool, err := functiontool.New(functiontool.Config{
-		Name:        "lookup_kriti",
-		Description: "Lookup a kriti by ID",
-	}, func(ctx agent.ToolContext, input struct{ ID string `json:"id"` }) (struct {
-		ID       string `json:"id"`
-		Name     string `json:"name"`
-		Ragam    string `json:"ragam"`
-		Talam    string `json:"talam"`
-		Composer string `json:"composer"`
-		Error    string `json:"error,omitempty"`
-	}, error) {
-		k, err := tools.LookupKriti(ctx, input.ID)
-		if err != nil {
-			return struct {
-				ID       string `json:"id"`
-				Name     string `json:"name"`
-				Ragam    string `json:"ragam"`
-				Talam    string `json:"talam"`
-				Composer string `json:"composer"`
-				Error    string `json:"error,omitempty"`
-			}{Error: err.Error()}, nil
-		}
-		return struct {
-			ID       string `json:"id"`
-			Name     string `json:"name"`
-			Ragam    string `json:"ragam"`
-			Talam    string `json:"talam"`
-			Composer string `json:"composer"`
-			Error    string `json:"error,omitempty"`
-		}{ID: k.ID, Name: k.Name, Ragam: k.Ragam, Talam: k.Talam, Composer: k.Composer}, nil
-	})
 	searchAgent, err := NewSearchAgent("kriti_search_agent")
 	if err != nil {
 		return nil, err
@@ -153,8 +47,8 @@ func NewKritiAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 			searchAgent,
 		},
 		Tools: []tool.Tool{
-			searchKritisTool,
-			lookupKritiTool,
+			tools.SearchKritisTool,
+			tools.LookupKritiTool,
 		},
 		BeforeAgentCallbacks: []agent.BeforeAgentCallback{
 			func(ctx agent.CallbackContext) (*genai.Content, error) {

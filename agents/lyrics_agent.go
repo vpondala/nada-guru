@@ -12,7 +12,6 @@ import (
 	"google.golang.org/adk/agent/llmagent"
 	"google.golang.org/adk/model/gemini"
 	"google.golang.org/adk/tool"
-	"google.golang.org/adk/tool/functiontool"
 	"google.golang.org/genai"
 )
 
@@ -36,100 +35,6 @@ func NewLyricsAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 		return nil, err
 	}
 
-	getLyricsTool, err := functiontool.New(functiontool.Config{
-		Name:        "get_lyrics",
-		Description: "Get lyrics for a kriti by ID",
-	}, func(ctx agent.ToolContext, input struct{ KritiID string `json:"kriti_id"` }) (struct {
-		KritiID string `json:"kriti_id"`
-		Pallavi struct {
-			Original string `json:"original"`
-			IAST     string `json:"iast"`
-		} `json:"pallavi"`
-		Anupallavi struct {
-			Original string `json:"original"`
-			IAST     string `json:"iast"`
-		} `json:"anupallavi"`
-		Charanams []struct {
-			Original string `json:"original"`
-			IAST     string `json:"iast"`
-		} `json:"charanams"`
-		Error string `json:"error,omitempty"`
-	}, error) {
-		lyrics, err := tools.GetLyrics(ctx, input.KritiID)
-		if err != nil {
-			return struct {
-				KritiID string `json:"kriti_id"`
-				Pallavi struct {
-					Original string `json:"original"`
-					IAST     string `json:"iast"`
-				} `json:"pallavi"`
-				Anupallavi struct {
-					Original string `json:"original"`
-					IAST     string `json:"iast"`
-				} `json:"anupallavi"`
-				Charanams []struct {
-					Original string `json:"original"`
-					IAST     string `json:"iast"`
-				} `json:"charanams"`
-				Error string `json:"error,omitempty"`
-			}{Error: err.Error()}, nil
-		}
-		charanams := make([]struct {
-			Original string `json:"original"`
-			IAST     string `json:"iast"`
-		}, len(lyrics.Charanams))
-		for i, c := range lyrics.Charanams {
-			charanams[i] = struct {
-				Original string `json:"original"`
-				IAST     string `json:"iast"`
-			}{Original: c.Original, IAST: c.IAST}
-		}
-		return struct {
-			KritiID string `json:"kriti_id"`
-			Pallavi struct {
-				Original string `json:"original"`
-				IAST     string `json:"iast"`
-			} `json:"pallavi"`
-			Anupallavi struct {
-				Original string `json:"original"`
-				IAST     string `json:"iast"`
-			} `json:"anupallavi"`
-			Charanams []struct {
-				Original string `json:"original"`
-				IAST     string `json:"iast"`
-			} `json:"charanams"`
-			Error string `json:"error,omitempty"`
-		}{
-			KritiID: lyrics.KritiID,
-			Pallavi: struct {
-				Original string `json:"original"`
-				IAST     string `json:"iast"`
-			}{Original: lyrics.Pallavi.Original, IAST: lyrics.Pallavi.IAST},
-			Anupallavi: struct {
-				Original string `json:"original"`
-				IAST     string `json:"iast"`
-			}{Original: lyrics.Anupallavi.Original, IAST: lyrics.Anupallavi.IAST},
-			Charanams: charanams,
-		}, nil
-	})
-	if err != nil {
-		return nil, err
-	}
-
-	scrapeLyricsTool, err := functiontool.New(functiontool.Config{
-		Name:        "scrape_lyrics",
-		Description: "Scrape lyrics from external sources (internal)",
-	}, func(ctx agent.ToolContext, input struct {
-		KritiName    string `json:"kriti_name"`
-		ComposerName string `json:"composer_name"`
-	}) (struct {
-		Error string `json:"error,omitempty"`
-	}, error) {
-		_, err := tools.ScrapeLyrics(ctx, input.KritiName, input.ComposerName)
-		return struct {
-			Error string `json:"error,omitempty"`
-		}{Error: err.Error()}, nil
-	})
 	searchAgent, err := NewSearchAgent("lyrics_search_agent")
 	if err != nil {
 		return nil, err
@@ -144,8 +49,8 @@ func NewLyricsAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 			searchAgent,
 		},
 		Tools: []tool.Tool{
-			getLyricsTool,
-			scrapeLyricsTool,
+			tools.GetLyricsTool,
+			tools.ScrapeLyricsTool,
 		},
 		BeforeAgentCallbacks: []agent.BeforeAgentCallback{
 			func(ctx agent.CallbackContext) (*genai.Content, error) {

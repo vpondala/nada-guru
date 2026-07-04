@@ -14,6 +14,7 @@ var store *knowledge.KnowledgeStore
 // Init sets the knowledge store used by all tool functions.
 func Init(s *knowledge.KnowledgeStore) {
 	store = s
+	InitADKTools()
 }
 
 // LookupRaga returns a Raga by exact ID or by alias (case-insensitive).

@@ -12,7 +12,6 @@ import (
 	"google.golang.org/adk/agent/llmagent"
 	"google.golang.org/adk/model/gemini"
 	"google.golang.org/adk/tool"
-	"google.golang.org/adk/tool/functiontool"
 	"google.golang.org/genai"
 )
 
@@ -34,70 +33,6 @@ func NewTalaAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 		return nil, err
 	}
 
-	lookupTalaTool, err := functiontool.New(functiontool.Config{
-		Name:        "lookup_tala",
-		Description: "Lookup a tala by name",
-	}, func(ctx agent.ToolContext, input struct{ Name string `json:"name"` }) (struct {
-		ID       string `json:"id"`
-		Name     string `json:"name"`
-		Error    string `json:"error,omitempty"`
-	}, error) {
-		t, err := tools.LookupTala(ctx, input.Name)
-		if err != nil {
-			return struct {
-				ID       string `json:"id"`
-				Name     string `json:"name"`
-				Error    string `json:"error,omitempty"`
-			}{Error: err.Error()}, nil
-		}
-		return struct {
-			ID       string `json:"id"`
-			Name     string `json:"name"`
-			Error    string `json:"error,omitempty"`
-		}{ID: t.ID, Name: t.Name}, nil
-	})
-	if err != nil {
-		return nil, err
-	}
-
-	searchBeatsTool, err := functiontool.New(functiontool.Config{
-		Name:        "search_talas_by_beats",
-		Description: "Search talas by beat count",
-	}, func(ctx agent.ToolContext, input struct{ Beats int `json:"beats"` }) (struct {
-		Results []struct {
-			ID   string `json:"id"`
-			Name string `json:"name"`
-		} `json:"results"`
-		Error string `json:"error,omitempty"`
-	}, error) {
-		results, err := tools.SearchTalasByBeats(ctx, input.Beats)
-		if err != nil {
-			return struct {
-				Results []struct {
-					ID   string `json:"id"`
-					Name string `json:"name"`
-				} `json:"results"`
-				Error string `json:"error,omitempty"`
-			}{Error: err.Error()}, nil
-		}
-		out := make([]struct {
-			ID   string `json:"id"`
-			Name string `json:"name"`
-		}, len(results))
-		for i, t := range results {
-			out[i] = struct {
-				ID   string `json:"id"`
-				Name string `json:"name"`
-			}{ID: t.ID, Name: t.Name}
-		}
-		return struct {
-			Results []struct {
-				ID   string `json:"id"`
-				Name string `json:"name"`
-			} `json:"results"`
-			Error string `json:"error,omitempty"`
-		}{Results: out}, nil
-	})
 	searchAgent, err := NewSearchAgent("tala_search_agent")
 	if err != nil {
 		return nil, err
@@ -112,8 +47,8 @@ func NewTalaAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 			searchAgent,
 		},
 		Tools: []tool.Tool{
-			lookupTalaTool,
-			searchBeatsTool,
+			tools.LookupTalaTool,
+			tools.SearchTalasByBeatsTool,
 		},
 		BeforeAgentCallbacks: []agent.BeforeAgentCallback{
 			func(ctx agent.CallbackContext) (*genai.Content, error) {

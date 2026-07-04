@@ -12,7 +12,6 @@ import (
 	"google.golang.org/adk/agent/llmagent"
 	"google.golang.org/adk/model/gemini"
 	"google.golang.org/adk/tool"
-	"google.golang.org/adk/tool/functiontool"
 	"google.golang.org/genai"
 )
 
@@ -36,47 +35,6 @@ func NewTransliterationAgent(store *knowledge.KnowledgeStore) (agent.Agent, erro
 		return nil, err
 	}
 
-	transliterateTool, err := functiontool.New(functiontool.Config{
-		Name:        "transliterate_text",
-		Description: "Transliterate text from source script to Telugu",
-	}, func(ctx agent.ToolContext, input struct {
-		Text       string `json:"text"`
-		SourceLang string `json:"source_lang"`
-		TargetLang string `json:"target_lang"`
-	}) (struct {
-		Original       string   `json:"original"`
-		Transliterated string   `json:"transliterated"`
-		SourceLang     string   `json:"source_lang"`
-		TargetLang     string   `json:"target_lang"`
-		Notes          []string `json:"notes"`
-		Error          string   `json:"error,omitempty"`
-	}, error) {
-		result, err := tools.TransliterateText(ctx, input.Text, input.SourceLang, input.TargetLang)
-		if err != nil {
-			return struct {
-				Original       string   `json:"original"`
-				Transliterated string   `json:"transliterated"`
-				SourceLang     string   `json:"source_lang"`
-				TargetLang     string   `json:"target_lang"`
-				Notes          []string `json:"notes"`
-				Error          string   `json:"error,omitempty"`
-			}{Error: err.Error()}, nil
-		}
-		return struct {
-			Original       string   `json:"original"`
-			Transliterated string   `json:"transliterated"`
-			SourceLang     string   `json:"source_lang"`
-			TargetLang     string   `json:"target_lang"`
-			Notes          []string `json:"notes"`
-			Error          string   `json:"error,omitempty"`
-		}{
-			Original:       result.Original,
-			Transliterated: result.Transliterated,
-			SourceLang:     result.SourceLang,
-			TargetLang:     result.TargetLang,
-			Notes:          result.Notes,
-		}, nil
-	})
 	searchAgent, err := NewSearchAgent("transliteration_search_agent")
 	if err != nil {
 		return nil, err
@@ -91,7 +49,7 @@ func NewTransliterationAgent(store *knowledge.KnowledgeStore) (agent.Agent, erro
 			searchAgent,
 		},
 		Tools: []tool.Tool{
-			transliterateTool,
+			tools.TransliterateTextTool,
 		},
 		BeforeAgentCallbacks: []agent.BeforeAgentCallback{
 			func(ctx agent.CallbackContext) (*genai.Content, error) {

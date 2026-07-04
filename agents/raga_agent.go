@@ -12,7 +12,6 @@ import (
 	"google.golang.org/adk/agent/llmagent"
 	"google.golang.org/adk/model/gemini"
 	"google.golang.org/adk/tool"
-	"google.golang.org/adk/tool/functiontool"
 	"google.golang.org/genai"
 )
 
@@ -35,117 +34,6 @@ func NewRagaAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 		return nil, err
 	}
 
-	lookupRagaTool, err := functiontool.New(functiontool.Config{
-		Name:        "lookup_raga",
-		Description: "Lookup a raga by name or alias",
-	}, func(ctx agent.ToolContext, input struct{ Name string `json:"name"` }) (struct {
-		ID    string `json:"id"`
-		Name  string `json:"name"`
-		Error string `json:"error,omitempty"`
-	}, error) {
-		r, err := tools.LookupRaga(ctx, input.Name)
-		if err != nil {
-			return struct {
-				ID    string `json:"id"`
-				Name  string `json:"name"`
-				Error string `json:"error,omitempty"`
-			}{Error: err.Error()}, nil
-		}
-		return struct {
-			ID    string `json:"id"`
-			Name  string `json:"name"`
-			Error string `json:"error,omitempty"`
-		}{ID: r.ID, Name: r.Name}, nil
-	})
-	if err != nil {
-		return nil, err
-	}
-
-	searchSwarasTool, err := functiontool.New(functiontool.Config{
-		Name:        "search_ragas_by_swara",
-		Description: "Search ragas by swara pattern",
-	}, func(ctx agent.ToolContext, input struct {
-		Swaras []string `json:"swaras"`
-	}) (struct {
-		Results []struct {
-			ID   string `json:"id"`
-			Name string `json:"name"`
-		} `json:"results"`
-		Error string `json:"error,omitempty"`
-	}, error) {
-		results, err := tools.SearchRagasBySwara(ctx, input.Swaras)
-		if err != nil {
-			return struct {
-				Results []struct {
-					ID   string `json:"id"`
-					Name string `json:"name"`
-				} `json:"results"`
-				Error string `json:"error,omitempty"`
-			}{Error: err.Error()}, nil
-		}
-		out := make([]struct {
-			ID   string `json:"id"`
-			Name string `json:"name"`
-		}, len(results))
-		for i, r := range results {
-			out[i] = struct {
-				ID   string `json:"id"`
-				Name string `json:"name"`
-			}{ID: r.ID, Name: r.Name}
-		}
-		return struct {
-			Results []struct {
-				ID   string `json:"id"`
-				Name string `json:"name"`
-			} `json:"results"`
-			Error string `json:"error,omitempty"`
-		}{Results: out}, nil
-	})
-	if err != nil {
-		return nil, err
-	}
-
-	searchMoodTool, err := functiontool.New(functiontool.Config{
-		Name:        "search_ragas_by_mood",
-		Description: "Search ragas by mood and time of day",
-	}, func(ctx agent.ToolContext, input struct {
-		Rasa      string `json:"rasa"`
-		TimeOfDay string `json:"time_of_day"`
-	}) (struct {
-		Results []struct {
-			ID   string `json:"id"`
-			Name string `json:"name"`
-		} `json:"results"`
-		Error string `json:"error,omitempty"`
-	}, error) {
-		results, err := tools.SearchRagasByMood(ctx, input.Rasa, input.TimeOfDay)
-		if err != nil {
-			return struct {
-				Results []struct {
-					ID   string `json:"id"`
-					Name string `json:"name"`
-				} `json:"results"`
-				Error string `json:"error,omitempty"`
-			}{Error: err.Error()}, nil
-		}
-		out := make([]struct {
-			ID   string `json:"id"`
-			Name string `json:"name"`
-		}, len(results))
-		for i, r := range results {
-			out[i] = struct {
-				ID   string `json:"id"`
-				Name string `json:"name"`
-			}{ID: r.ID, Name: r.Name}
-		}
-		return struct {
-			Results []struct {
-				ID   string `json:"id"`
-				Name string `json:"name"`
-			} `json:"results"`
-			Error string `json:"error,omitempty"`
-		}{Results: out}, nil
-	})
 	searchAgent, err := NewSearchAgent("raga_search_agent")
 	if err != nil {
 		return nil, err
@@ -160,9 +48,9 @@ func NewRagaAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 			searchAgent,
 		},
 		Tools: []tool.Tool{
-			lookupRagaTool,
-			searchSwarasTool,
-			searchMoodTool,
+			tools.LookupRagaTool,
+			tools.SearchRagasBySwaraTool,
+			tools.SearchRagasByMoodTool,
 		},
 		BeforeAgentCallbacks: []agent.BeforeAgentCallback{
 			func(ctx agent.CallbackContext) (*genai.Content, error) {
