@@ -55,3 +55,32 @@ Optional: PORT (default 8080), LOG_FORMAT (default "text"), CI (skip YouTube tes
 - Do NOT add HTTP middleware frameworks (Gin, Echo, Fiber) — use net/http only
 - Do NOT import testify unless already in go.mod
 - Do NOT generate code for tasks not yet listed as in-scope in TASKS.md
+
+## Git Workflow
+- The project uses Git for version control (initialized at project root).
+- After EVERY task in TASKS.md is fully completed and its acceptance criteria pass,
+  you MUST run `git add -A && git commit` with a message following this convention:
+
+  ```
+  <type>(<scope>): <short description>
+
+  Task <X.Y> — <task title>
+  ```
+
+  Where `<type>` is one of:
+  - `feat`  — new file(s) or functionality added
+  - `test`  — test files only
+  - `docs`  — documentation or spec changes only
+  - `chore` — scaffolding, dependencies, tooling
+
+  And `<scope>` matches the TASKS.md phase area:
+  - `scaffold`, `knowledge`, `session`, `tools`, `agents`, `server`, `cli`, `eval`, `docs`
+
+  Example commit messages:
+  - `feat(knowledge): implement KnowledgeStore with indexes` (Task 2.3)
+  - `test(knowledge): add KnowledgeStore unit tests` (Task 2.4)
+  - `feat(tools): implement raga lookup tools` (Task 4.1)
+  - `feat(agents): implement Root Orchestrator Agent` (Task 5.8)
+
+- Do NOT commit partial work or code that does not compile.
+- Do NOT squash task commits — one commit per completed task preserves the audit trail.
