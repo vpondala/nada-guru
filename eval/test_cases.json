@@ -1,0 +1,178 @@
+[
+  {
+    "id": "tc-001",
+    "description": "Raga lookup by display name",
+    "input": "Tell me about Kalyani Ragam",
+    "expect_contains": ["raga", "Mechakalyani"],
+    "agent_expected": "raga_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-002",
+    "description": "Raga lookup by alias",
+    "input": "Tell me about Hanumatodi",
+    "expect_contains": ["raga", "Hanumatodi"],
+    "agent_expected": "raga_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-003",
+    "description": "Raga comparison",
+    "input": "Compare Bhairavi and Kharaharapriya",
+    "expect_contains": ["Bhairavi", "Kharaharapriya"],
+    "agent_expected": "raga_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-004",
+    "description": "Morning ragas with devotional mood",
+    "input": "Morning ragas with devotional mood",
+    "expect_contains": ["raga"],
+    "agent_expected": "raga_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-005",
+    "description": "Raga by swara pattern",
+    "input": "Which raga has S R2 G3 M2 P D2 N3?",
+    "expect_contains": ["raga", "Mechakalyani"],
+    "agent_expected": "raga_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-006",
+    "description": "Tala lookup by name",
+    "input": "How does Adi Talam work?",
+    "expect_contains": ["tala", "Adi"],
+    "agent_expected": "tala_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-007",
+    "description": "Tala by beat count",
+    "input": "Which tala has 7 beats?",
+    "expect_contains": ["tala"],
+    "agent_expected": "tala_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-008",
+    "description": "Tala structure explanation",
+    "input": "What is the structure of Adi Talam?",
+    "expect_contains": ["tala", "Adi"],
+    "agent_expected": "tala_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-009",
+    "description": "Kriti search by composer",
+    "input": "Which Tyagaraja kritis are in Bhairavi?",
+    "expect_contains": ["kriti"],
+    "agent_expected": "kriti_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-010",
+    "description": "Kriti lookup by ID",
+    "input": "Tell me about Endaro Mahanubhavulu",
+    "expect_contains": ["Sri", "Adi", "Tyagaraja"],
+    "agent_expected": "kriti_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-011",
+    "description": "Kriti search by language",
+    "input": "Show me Telugu kritis in Kalyani",
+    "expect_contains": ["kriti", "Telugu"],
+    "agent_expected": "kriti_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-012",
+    "description": "Composer info",
+    "input": "Tell me about Muthuswami Dikshitar",
+    "expect_contains": ["composer", "1775"],
+    "agent_expected": "composer_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-013",
+    "description": "Trinity query",
+    "input": "Who are the Carnatic Trinity?",
+    "expect_contains": ["Tyagaraja", "Dikshitar", "Syama Sastri"],
+    "agent_expected": "composer_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-014",
+    "description": "Composers by language",
+    "input": "Which composers wrote in Kannada?",
+    "expect_contains": ["composer"],
+    "agent_expected": "composer_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-015",
+    "description": "Lyrics retrieval",
+    "input": "Show me the lyrics of Endaro Mahanubhavulu",
+    "expect_contains": ["Pallavi"],
+    "agent_expected": "lyrics_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-016",
+    "description": "Lyrics with IAST",
+    "input": "Show lyrics with IAST for Endaro Mahanubhavulu",
+    "expect_contains": ["Pallavi", "IAST"],
+    "agent_expected": "lyrics_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-017",
+    "description": "Transliteration Sanskrit to Telugu",
+    "input": "Transliterate Vatapi Ganapatim into Telugu",
+    "expect_contains": ["transliterat"],
+    "agent_expected": "transliteration_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-018",
+    "description": "Transliteration same language",
+    "input": "Transliterate test text from Telugu to Telugu",
+    "expect_contains": ["test"],
+    "agent_expected": "transliteration_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-019",
+    "description": "YouTube raga identification",
+    "input": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "expect_contains": ["raga", "talam"],
+    "agent_expected": "youtube_analyser_agent",
+    "skip_in_ci": true
+  },
+  {
+    "id": "tc-020",
+    "description": "Root orchestrator routes correctly",
+    "input": "Tell me about Kalyani Ragam",
+    "expect_contains": ["raga", "Mechakalyani"],
+    "agent_expected": "raga_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-021",
+    "description": "Unsupported source language",
+    "input": "Transliterate hello from English to Telugu",
+    "expect_contains": ["unsupported"],
+    "agent_expected": "transliteration_agent",
+    "skip_in_ci": false
+  },
+  {
+    "id": "tc-022",
+    "description": "Multi-domain lyrics and transliteration",
+    "input": "Show me lyrics of Endaro Mahanubhavulu and transliterate into Telugu",
+    "expect_contains": ["Pallavi", "transliterat"],
+    "agent_expected": "lyrics_agent",
+    "skip_in_ci": false
+  }
+]
