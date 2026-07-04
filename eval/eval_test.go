@@ -7,9 +7,21 @@ import (
 	"os"
 	"strings"
 	"testing"
+	"time"
 
 	"github.com/vpondala/nada-guru/agents"
 	"github.com/vpondala/nada-guru/knowledge"
+	"google.golang.org/adk/agent"
+	"google.golang.org/adk/runner"
+	"google.golang.org/adk/session"
+	"google.golang.org/genai"
+)
+
+const (
+	evalAppName    = "nada-guru-eval"
+	evalUserID     = "eval-user"
+	evalTimeout    = 90 * time.Second
+	evalSessionFmt = "eval-session-%s"
 )
 
 type testCase struct {
@@ -18,7 +30,7 @@ type testCase struct {
 	Input          string   `json:"input"`
 	ExpectContains []string `json:"expect_contains"`
 	AgentExpected  string   `json:"agent_expected"`
-	SkipInCI      bool     `json:"skip_in_ci"`
+	SkipInCI       bool     `json:"skip_in_ci"`
 }
 
 func TestEvalSuite(t *testing.T) {
@@ -45,6 +57,16 @@ func TestEvalSuite(t *testing.T) {
 		t.Fatalf("agents.New() failed: %v", err)
 	}
 
+	r, err := runner.New(runner.Config{
+		AppName:           evalAppName,
+		Agent:             rootAgent,
+		SessionService:    session.InMemoryService(),
+		AutoCreateSession: true,
+	})
+	if err != nil {
+		t.Fatalf("runner.New() failed: %v", err)
+	}
+
 	passed := 0
 	failed := 0
 	skipped := 0
@@ -56,8 +78,10 @@ func TestEvalSuite(t *testing.T) {
 			continue
 		}
 
-		ctx := context.Background()
-		response, err := invokeAgent(ctx, rootAgent, tc.Input)
+		ctx, cancel := context.WithTimeout(context.Background(), evalTimeout)
+		sessionID := fmt.Sprintf(evalSessionFmt, tc.ID)
+		response, err := invokeAgent(ctx, r, sessionID, tc.Input)
+		cancel()
 		if err != nil {
 			t.Logf("FAIL %s: %s — agent error: %v", tc.ID, tc.Description, err)
 			failed++
@@ -90,9 +114,23 @@ func max(a, b int) int {
 	return b
 }
 
-func invokeAgent(ctx context.Context, agent interface{}, input string) (string, error) {
-	_ = ctx
-	_ = agent
-	_ = input
-	return "[agent invocation not yet wired]", nil
+func invokeAgent(ctx context.Context, r *runner.Runner, sessionID, input string) (string, error) {
+	msg := genai.NewContentFromText(input, genai.RoleUser)
+
+	var responseText strings.Builder
+	for event, err := range r.Run(ctx, evalUserID, sessionID, msg, agent.RunConfig{}) {
+		if err != nil {
+			return "", fmt.Errorf("runner.Run: %w", err)
+		}
+		if event == nil || event.LLMResponse.Content == nil {
+			continue
+		}
+		for _, part := range event.LLMResponse.Content.Parts {
+			if part == nil || part.Text == "" || part.Thought {
+				continue
+			}
+			responseText.WriteString(part.Text)
+		}
+	}
+	return responseText.String(), nil
 }
