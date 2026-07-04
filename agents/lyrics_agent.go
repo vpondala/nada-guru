@@ -130,7 +130,7 @@ func NewLyricsAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 			Error string `json:"error,omitempty"`
 		}{Error: err.Error()}, nil
 	})
-	searchAgent, err := NewSearchAgent()
+	searchAgent, err := NewSearchAgent("lyrics_search_agent")
 	if err != nil {
 		return nil, err
 	}

@@ -139,7 +139,7 @@ func NewKritiAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 			Error    string `json:"error,omitempty"`
 		}{ID: k.ID, Name: k.Name, Ragam: k.Ragam, Talam: k.Talam, Composer: k.Composer}, nil
 	})
-	searchAgent, err := NewSearchAgent()
+	searchAgent, err := NewSearchAgent("kriti_search_agent")
 	if err != nil {
 		return nil, err
 	}

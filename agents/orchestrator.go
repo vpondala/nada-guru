@@ -60,7 +60,7 @@ func New(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 	if err != nil {
 		return nil, err
 	}
-	searchAgent, err := NewSearchAgent()
+	searchAgent, err := NewSearchAgent("orchestrator_search_agent")
 	if err != nil {
 		return nil, err
 	}

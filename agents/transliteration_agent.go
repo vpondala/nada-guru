@@ -77,7 +77,7 @@ func NewTransliterationAgent(store *knowledge.KnowledgeStore) (agent.Agent, erro
 			Notes:          result.Notes,
 		}, nil
 	})
-	searchAgent, err := NewSearchAgent()
+	searchAgent, err := NewSearchAgent("transliteration_search_agent")
 	if err != nil {
 		return nil, err
 	}

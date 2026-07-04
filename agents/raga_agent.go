@@ -146,7 +146,7 @@ func NewRagaAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 			Error string `json:"error,omitempty"`
 		}{Results: out}, nil
 	})
-	searchAgent, err := NewSearchAgent()
+	searchAgent, err := NewSearchAgent("raga_search_agent")
 	if err != nil {
 		return nil, err
 	}

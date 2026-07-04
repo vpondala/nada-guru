@@ -98,7 +98,7 @@ func NewComposerAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 			Error string `json:"error,omitempty"`
 		}{Results: out}, nil
 	})
-	searchAgent, err := NewSearchAgent()
+	searchAgent, err := NewSearchAgent("composer_search_agent")
 	if err != nil {
 		return nil, err
 	}

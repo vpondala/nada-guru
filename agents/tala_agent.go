@@ -98,7 +98,7 @@ func NewTalaAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 			Error string `json:"error,omitempty"`
 		}{Results: out}, nil
 	})
-	searchAgent, err := NewSearchAgent()
+	searchAgent, err := NewSearchAgent("tala_search_agent")
 	if err != nil {
 		return nil, err
 	}

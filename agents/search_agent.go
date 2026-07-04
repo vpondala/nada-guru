@@ -20,8 +20,8 @@ Your sole job is to search the web using Google Search to answer the user's quer
 Use the Google Search tool to find relevant, up-to-date information.
 Always clearly state that the source of the information is web search (e.g., "Based on web search: ...") and include the source URL(s).`
 
-// NewSearchAgent creates a new dedicated search agent.
-func NewSearchAgent() (agent.Agent, error) {
+// NewSearchAgent creates a new dedicated search agent with a unique name.
+func NewSearchAgent(name string) (agent.Agent, error) {
 	ctx := context.Background()
 	model, err := gemini.NewModel(ctx, searchModelName, &genai.ClientConfig{
 		APIKey: os.Getenv("GEMINI_API_KEY"),
@@ -31,7 +31,7 @@ func NewSearchAgent() (agent.Agent, error) {
 	}
 
 	a, err := llmagent.New(llmagent.Config{
-		Name:        "web_search_agent",
+		Name:        name,
 		Model:       model,
 		Description: "Queries the web using Google Search to find external information about Carnatic music when the knowledge base is insufficient.",
 		Instruction: searchInstruction,
