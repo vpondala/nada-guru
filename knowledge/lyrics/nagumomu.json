@@ -1,0 +1,27 @@
+{
+  "kriti_id": "nagumomu",
+  "name": "Nagumomu Ganaleni",
+  "ragam": "Abheri",
+  "talam": "Adi",
+  "composer": "Tyagaraja",
+  "language": "Telugu",
+  "pallavi": {
+    "original_telugu": "నగుమోము గనలేని నాకేమి సుఖమురా",
+    "iast": "nagumōmu ganalēni nākēmi sukhamurā",
+    "meaning": "Without seeing your smiling face, what happiness is there for me?"
+  },
+  "anupallavi": {
+    "original_telugu": "జగమున ని జూచిన జాల్జగించే ముఖమా",
+    "iast": "jagamuna ni jūcina jāljaginchē mukhamā",
+    "meaning": "Is this the face that, when seen in this world, moves me with compassion?"
+  },
+  "charanams": [
+    {
+      "number": 1,
+      "original_telugu": "పర మాత్ముడవై వెలసే నిను పాలించే నిను",
+      "iast": "para māṭmuḍavai velasē ninu pāliñcē ninu",
+      "meaning": "You who shone forth as the Supreme Self, you who protects me"
+    }
+  ],
+  "additional_notes": "A masterpiece in Abheri raga, one of the most emotionally expressive kritis of Tyagaraja. The raga itself is derived from Natabhairavi (20th Melakarta)."
+}

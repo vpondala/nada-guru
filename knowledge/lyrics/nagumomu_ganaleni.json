@@ -1,0 +1,26 @@
+{
+  "kriti_id": "nagumomu_ganaleni",
+  "ragam": "Abheri",
+  "talam": "Adi",
+  "composer": "tyagaraja",
+  "language": "Telugu",
+  "script": "te",
+  "pallavi": {
+    "original": "నగుమోము గనలేని తనువు నరజన్మమా",
+    "iast": "nagumōmu ganalēni tanuvu narajanmamā",
+    "meaning": "Is this human birth worthwhile if I cannot behold your smiling face?"
+  },
+  "anupallavi": {
+    "original": "జగమేలు శ్రీరాముని చల్లని చూపును కనే భాగ్యమేది",
+    "iast": "jagamēlu śrīrāmuni callani cūpunu kanē bhāgyamēdi",
+    "meaning": "Where is the fortune to see the cool, compassionate gaze of Sri Rama who rules the universe?"
+  },
+  "charanams": [
+    {
+      "number": 1,
+      "original": "నిను వినా రాముని సేవ నిమిషమైన సలుపు చేతనైన",
+      "iast": "ninu vinā rāmuni sēva nimiṣamaiana salupu cētanaina",
+      "meaning": "Without you (the smiling face), even a moment of Rama's service feels incomplete."
+    }
+  ]
+}

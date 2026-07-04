@@ -1,0 +1,39 @@
+{
+  "kriti_id": "endaro_mahanubhavulu",
+  "name": "Endaro Mahanubhavulu",
+  "ragam": "Sri",
+  "talam": "Adi",
+  "composer": "Tyagaraja",
+  "language": "Telugu",
+  "pallavi": {
+    "original_telugu": "ఎందరో మహానుభావులు అందరికీ వందనములు",
+    "iast": "endarō mahānubhāvulu andarikī vandanamulu",
+    "meaning": "There are many great souls — I bow to all of them"
+  },
+  "anupallavi": {
+    "original_telugu": "చందురు వర్ణుని అందచందమును హృదయారవిందమున జూచి బ్రహ్మానందమనుభవించు వారెందరో",
+    "iast": "canduru varṇuni andacandamunu hṛdayāravindamuna jūci brahmānandamanubhaviñcu vārendarō",
+    "meaning": "Those who behold the moon-like beauty of the Lord in the lotus of their hearts and experience the bliss of Brahman — how many such souls are there?"
+  },
+  "charanams": [
+    {
+      "number": 1,
+      "original_telugu": "సామ గాన లోల మనసా వినోద మూల అగు నారదాది సుజనులు",
+      "iast": "sāma gāna lōla manasā vinōda mūla agu nāradādi sujanulu",
+      "meaning": "Narada and other noble souls who delight in the music of the Sama Veda"
+    },
+    {
+      "number": 2,
+      "original_telugu": "మానస వన చర వర శ్రేణి కి రాజులు మాటలకు నిలుకడ అయ్యవారు",
+      "iast": "mānasa vana cara vara śrēṇi ki rājulu māṭalaku nilukada ayyavāru",
+      "meaning": "Those who are kings among the best of birds that dwell in the forest of the mind, those who stand by their word"
+    },
+    {
+      "number": 3,
+      "original_telugu": "శ్రీ రాముని దయ చూడ తరమా నిను సేవించిన వారెందరో",
+      "iast": "śrī rāmuni daya cūḍa taramā ninu sēviñcina vārendarō",
+      "meaning": "Is it possible to see the grace of Sri Rama? How many are those who have served you (Rama)?"
+    }
+  ],
+  "additional_notes": "This is the fifth and most celebrated of the Pancharatna Kritis. Traditionally sung as the finale of Tyagaraja Aradhana festivals."
+}

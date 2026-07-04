@@ -1,0 +1,26 @@
+{
+  "kriti_id": "bhagyada_lakshmi_baramma",
+  "ragam": "Madhuvanti",
+  "talam": "Adi",
+  "composer": "purandaradasa",
+  "language": "Kannada",
+  "script": "kn",
+  "pallavi": {
+    "original": "ಭಾಗ್ಯದ ಲಕ್ಷ್ಮಿ ಬಾರಮ್ಮ ನಮ್ಮ ವೈಭವದ ಲಕ್ಷ್ಮಿ ಬಾರಮ್ಮ",
+    "iast": "bhāgyada lakṣmi bāramma namma vaibhavada lakṣmi bāramma",
+    "meaning": "Come, O Lakshmi of fortune! Come, O Lakshmi of our glory!"
+  },
+  "anupallavi": {
+    "original": "ಸೌಭಾಗ್ಯದ ಲಕ್ಷ್ಮಿ ಬಾರಮ್ಮ ಶ್ರೀ ರಂಗನ ರಾಣಿ ಬಾರಮ್ಮ",
+    "iast": "saubhāgyada lakṣmi bāramma śrī raṃgana rāṇi bāramma",
+    "meaning": "Come, O Lakshmi of good fortune! Come, O queen of Sriranga!"
+  },
+  "charanams": [
+    {
+      "number": 1,
+      "original": "ಅಂಬರದಿಂದ ಇಳಿದು ಬಾ ಅಮರರ ಗಣದೊಡನೆ ಬಾ",
+      "iast": "ambaradiṃda iḷidu bā amarara gaṇadoḍane bā",
+      "meaning": "Descend from the heavens, come with the assembly of celestial beings."
+    }
+  ]
+}

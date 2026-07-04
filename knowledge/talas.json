@@ -1,0 +1,1149 @@
+[
+  {
+    "id": "dhruva_tisra",
+    "name": "Tisra Jati Dhruva Talam",
+    "tala_family": "Dhruva Talam",
+    "jaati": "tisra",
+    "angas": [
+      "L",
+      "D",
+      "L",
+      "L"
+    ],
+    "laghu_beats": 3,
+    "total_aksharas": 11,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 3
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "L",
+        "beats": 3
+      },
+      {
+        "anga": "L",
+        "beats": 3
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "dhruva_chatusra",
+    "name": "Chatusra Jati Dhruva Talam",
+    "tala_family": "Dhruva Talam",
+    "jaati": "chatusra",
+    "angas": [
+      "L",
+      "D",
+      "L",
+      "L"
+    ],
+    "laghu_beats": 4,
+    "total_aksharas": 14,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 4
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "L",
+        "beats": 4
+      },
+      {
+        "anga": "L",
+        "beats": 4
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "dhruva_khanda",
+    "name": "Khanda Jati Dhruva Talam",
+    "tala_family": "Dhruva Talam",
+    "jaati": "khanda",
+    "angas": [
+      "L",
+      "D",
+      "L",
+      "L"
+    ],
+    "laghu_beats": 5,
+    "total_aksharas": 17,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 5
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "L",
+        "beats": 5
+      },
+      {
+        "anga": "L",
+        "beats": 5
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "dhruva_misra",
+    "name": "Misra Jati Dhruva Talam",
+    "tala_family": "Dhruva Talam",
+    "jaati": "misra",
+    "angas": [
+      "L",
+      "D",
+      "L",
+      "L"
+    ],
+    "laghu_beats": 7,
+    "total_aksharas": 23,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 7
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "L",
+        "beats": 7
+      },
+      {
+        "anga": "L",
+        "beats": 7
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "dhruva_sankeerna",
+    "name": "Sankeerna Jati Dhruva Talam",
+    "tala_family": "Dhruva Talam",
+    "jaati": "sankeerna",
+    "angas": [
+      "L",
+      "D",
+      "L",
+      "L"
+    ],
+    "laghu_beats": 9,
+    "total_aksharas": 29,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 9
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "L",
+        "beats": 9
+      },
+      {
+        "anga": "L",
+        "beats": 9
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "matya_tisra",
+    "name": "Tisra Jati Matya Talam",
+    "tala_family": "Matya Talam",
+    "jaati": "tisra",
+    "angas": [
+      "L",
+      "D",
+      "L"
+    ],
+    "laghu_beats": 3,
+    "total_aksharas": 8,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 3
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "L",
+        "beats": 3
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "matya_chatusra",
+    "name": "Chatusra Jati Matya Talam",
+    "tala_family": "Matya Talam",
+    "jaati": "chatusra",
+    "angas": [
+      "L",
+      "D",
+      "L"
+    ],
+    "laghu_beats": 4,
+    "total_aksharas": 10,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 4
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "L",
+        "beats": 4
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "matya_khanda",
+    "name": "Khanda Jati Matya Talam",
+    "tala_family": "Matya Talam",
+    "jaati": "khanda",
+    "angas": [
+      "L",
+      "D",
+      "L"
+    ],
+    "laghu_beats": 5,
+    "total_aksharas": 12,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 5
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "L",
+        "beats": 5
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "matya_misra",
+    "name": "Misra Jati Matya Talam",
+    "tala_family": "Matya Talam",
+    "jaati": "misra",
+    "angas": [
+      "L",
+      "D",
+      "L"
+    ],
+    "laghu_beats": 7,
+    "total_aksharas": 16,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 7
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "L",
+        "beats": 7
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "matya_sankeerna",
+    "name": "Sankeerna Jati Matya Talam",
+    "tala_family": "Matya Talam",
+    "jaati": "sankeerna",
+    "angas": [
+      "L",
+      "D",
+      "L"
+    ],
+    "laghu_beats": 9,
+    "total_aksharas": 20,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 9
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "L",
+        "beats": 9
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "rupaka_tisra",
+    "name": "Tisra Jati Rupaka Talam",
+    "tala_family": "Rupaka Talam",
+    "jaati": "tisra",
+    "angas": [
+      "D",
+      "L"
+    ],
+    "laghu_beats": 3,
+    "total_aksharas": 5,
+    "anga_breakdown": [
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "L",
+        "beats": 3
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "rupaka_chatusra",
+    "name": "Chatusra Jati Rupaka Talam",
+    "tala_family": "Rupaka Talam",
+    "jaati": "chatusra",
+    "angas": [
+      "D",
+      "L"
+    ],
+    "laghu_beats": 4,
+    "total_aksharas": 6,
+    "anga_breakdown": [
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "L",
+        "beats": 4
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "high",
+    "notes": null
+  },
+  {
+    "id": "rupaka_khanda",
+    "name": "Khanda Jati Rupaka Talam",
+    "tala_family": "Rupaka Talam",
+    "jaati": "khanda",
+    "angas": [
+      "D",
+      "L"
+    ],
+    "laghu_beats": 5,
+    "total_aksharas": 7,
+    "anga_breakdown": [
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "L",
+        "beats": 5
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "rupaka_misra",
+    "name": "Misra Jati Rupaka Talam",
+    "tala_family": "Rupaka Talam",
+    "jaati": "misra",
+    "angas": [
+      "D",
+      "L"
+    ],
+    "laghu_beats": 7,
+    "total_aksharas": 9,
+    "anga_breakdown": [
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "L",
+        "beats": 7
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "rupaka_sankeerna",
+    "name": "Sankeerna Jati Rupaka Talam",
+    "tala_family": "Rupaka Talam",
+    "jaati": "sankeerna",
+    "angas": [
+      "D",
+      "L"
+    ],
+    "laghu_beats": 9,
+    "total_aksharas": 11,
+    "anga_breakdown": [
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "L",
+        "beats": 9
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "jhampa_tisra",
+    "name": "Tisra Jati Jhampa Talam",
+    "tala_family": "Jhampa Talam",
+    "jaati": "tisra",
+    "angas": [
+      "L",
+      "A",
+      "D"
+    ],
+    "laghu_beats": 3,
+    "total_aksharas": 6,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 3
+      },
+      {
+        "anga": "A",
+        "beats": 1
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "jhampa_chatusra",
+    "name": "Chatusra Jati Jhampa Talam",
+    "tala_family": "Jhampa Talam",
+    "jaati": "chatusra",
+    "angas": [
+      "L",
+      "A",
+      "D"
+    ],
+    "laghu_beats": 4,
+    "total_aksharas": 7,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 4
+      },
+      {
+        "anga": "A",
+        "beats": 1
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "jhampa_khanda",
+    "name": "Khanda Jati Jhampa Talam",
+    "tala_family": "Jhampa Talam",
+    "jaati": "khanda",
+    "angas": [
+      "L",
+      "A",
+      "D"
+    ],
+    "laghu_beats": 5,
+    "total_aksharas": 8,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 5
+      },
+      {
+        "anga": "A",
+        "beats": 1
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "jhampa_misra",
+    "name": "Misra Jati Jhampa Talam",
+    "tala_family": "Jhampa Talam",
+    "jaati": "misra",
+    "angas": [
+      "L",
+      "A",
+      "D"
+    ],
+    "laghu_beats": 7,
+    "total_aksharas": 10,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 7
+      },
+      {
+        "anga": "A",
+        "beats": 1
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "jhampa_sankeerna",
+    "name": "Sankeerna Jati Jhampa Talam",
+    "tala_family": "Jhampa Talam",
+    "jaati": "sankeerna",
+    "angas": [
+      "L",
+      "A",
+      "D"
+    ],
+    "laghu_beats": 9,
+    "total_aksharas": 12,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 9
+      },
+      {
+        "anga": "A",
+        "beats": 1
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "triputa_tisra",
+    "name": "Tisra Jati Triputa Talam",
+    "tala_family": "Triputa Talam",
+    "jaati": "tisra",
+    "angas": [
+      "L",
+      "D",
+      "D"
+    ],
+    "laghu_beats": 3,
+    "total_aksharas": 7,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 3
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "adi",
+    "name": "Adi Talam",
+    "tala_family": "Triputa Talam",
+    "jaati": "chatusra",
+    "angas": [
+      "L",
+      "D",
+      "D"
+    ],
+    "laghu_beats": 4,
+    "total_aksharas": 8,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 4
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      }
+    ],
+    "clap_pattern": "1 2 3 4 | wave | wave",
+    "common_kritis": [
+      "endaro_mahanubhavulu",
+      "vatapi_ganapatim",
+      "nagumomu",
+      "jagadananda_karaka"
+    ],
+    "usage_frequency": "very_high",
+    "notes": "Most commonly used tala in Carnatic music (8 beats: 4+2+2)"
+  },
+  {
+    "id": "triputa_khanda",
+    "name": "Khanda Jati Triputa Talam",
+    "tala_family": "Triputa Talam",
+    "jaati": "khanda",
+    "angas": [
+      "L",
+      "D",
+      "D"
+    ],
+    "laghu_beats": 5,
+    "total_aksharas": 9,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 5
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "triputa_misra",
+    "name": "Misra Jati Triputa Talam",
+    "tala_family": "Triputa Talam",
+    "jaati": "misra",
+    "angas": [
+      "L",
+      "D",
+      "D"
+    ],
+    "laghu_beats": 7,
+    "total_aksharas": 11,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 7
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "triputa_sankeerna",
+    "name": "Sankeerna Jati Triputa Talam",
+    "tala_family": "Triputa Talam",
+    "jaati": "sankeerna",
+    "angas": [
+      "L",
+      "D",
+      "D"
+    ],
+    "laghu_beats": 9,
+    "total_aksharas": 13,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 9
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "ata_tisra",
+    "name": "Tisra Jati Ata Talam",
+    "tala_family": "Ata Talam",
+    "jaati": "tisra",
+    "angas": [
+      "L",
+      "L",
+      "D",
+      "D"
+    ],
+    "laghu_beats": 3,
+    "total_aksharas": 10,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 3
+      },
+      {
+        "anga": "L",
+        "beats": 3
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "ata_chatusra",
+    "name": "Chatusra Jati Ata Talam",
+    "tala_family": "Ata Talam",
+    "jaati": "chatusra",
+    "angas": [
+      "L",
+      "L",
+      "D",
+      "D"
+    ],
+    "laghu_beats": 4,
+    "total_aksharas": 12,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 4
+      },
+      {
+        "anga": "L",
+        "beats": 4
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "ata_khanda",
+    "name": "Khanda Jati Ata Talam",
+    "tala_family": "Ata Talam",
+    "jaati": "khanda",
+    "angas": [
+      "L",
+      "L",
+      "D",
+      "D"
+    ],
+    "laghu_beats": 5,
+    "total_aksharas": 14,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 5
+      },
+      {
+        "anga": "L",
+        "beats": 5
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "ata_misra",
+    "name": "Misra Jati Ata Talam",
+    "tala_family": "Ata Talam",
+    "jaati": "misra",
+    "angas": [
+      "L",
+      "L",
+      "D",
+      "D"
+    ],
+    "laghu_beats": 7,
+    "total_aksharas": 18,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 7
+      },
+      {
+        "anga": "L",
+        "beats": 7
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "ata_sankeerna",
+    "name": "Sankeerna Jati Ata Talam",
+    "tala_family": "Ata Talam",
+    "jaati": "sankeerna",
+    "angas": [
+      "L",
+      "L",
+      "D",
+      "D"
+    ],
+    "laghu_beats": 9,
+    "total_aksharas": 22,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 9
+      },
+      {
+        "anga": "L",
+        "beats": 9
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      },
+      {
+        "anga": "D",
+        "beats": 2
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "eka_tisra",
+    "name": "Tisra Jati Eka Talam",
+    "tala_family": "Eka Talam",
+    "jaati": "tisra",
+    "angas": [
+      "L"
+    ],
+    "laghu_beats": 3,
+    "total_aksharas": 3,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 3
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "eka_chatusra",
+    "name": "Chatusra Jati Eka Talam",
+    "tala_family": "Eka Talam",
+    "jaati": "chatusra",
+    "angas": [
+      "L"
+    ],
+    "laghu_beats": 4,
+    "total_aksharas": 4,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 4
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "eka_khanda",
+    "name": "Khanda Jati Eka Talam",
+    "tala_family": "Eka Talam",
+    "jaati": "khanda",
+    "angas": [
+      "L"
+    ],
+    "laghu_beats": 5,
+    "total_aksharas": 5,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 5
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "eka_misra",
+    "name": "Misra Jati Eka Talam",
+    "tala_family": "Eka Talam",
+    "jaati": "misra",
+    "angas": [
+      "L"
+    ],
+    "laghu_beats": 7,
+    "total_aksharas": 7,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 7
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "eka_sankeerna",
+    "name": "Sankeerna Jati Eka Talam",
+    "tala_family": "Eka Talam",
+    "jaati": "sankeerna",
+    "angas": [
+      "L"
+    ],
+    "laghu_beats": 9,
+    "total_aksharas": 9,
+    "anga_breakdown": [
+      {
+        "anga": "L",
+        "beats": 9
+      }
+    ],
+    "clap_pattern": null,
+    "common_kritis": [],
+    "usage_frequency": "medium",
+    "notes": null
+  },
+  {
+    "id": "misra_chapu",
+    "name": "Misra Chapu",
+    "tala_family": "Chapu",
+    "jaati": "misra",
+    "angas": [
+      "3",
+      "2",
+      "2"
+    ],
+    "total_aksharas": 7,
+    "anga_breakdown": [
+      {
+        "anga": "3-beat",
+        "beats": 3
+      },
+      {
+        "anga": "2-beat",
+        "beats": 2
+      },
+      {
+        "anga": "2-beat",
+        "beats": 2
+      }
+    ],
+    "clap_pattern": "1-2-3 | 1-2 | 1-2",
+    "common_kritis": [
+      "etavunara",
+      "manasa_sancharare",
+      "brova_bharama"
+    ],
+    "usage_frequency": "very_high",
+    "notes": "7-beat tala (3+2+2). Extremely popular for kritis and padams."
+  },
+  {
+    "id": "khanda_chapu",
+    "name": "Khanda Chapu",
+    "tala_family": "Chapu",
+    "jaati": "khanda",
+    "angas": [
+      "2",
+      "3"
+    ],
+    "total_aksharas": 5,
+    "anga_breakdown": [
+      {
+        "anga": "2-beat",
+        "beats": 2
+      },
+      {
+        "anga": "3-beat",
+        "beats": 3
+      }
+    ],
+    "clap_pattern": "1-2 | 1-2-3",
+    "common_kritis": [
+      "nidhi_chala_sukhama",
+      "devi_brova_samayamide"
+    ],
+    "usage_frequency": "high",
+    "notes": "5-beat tala (2+3). Common in fast-paced compositions."
+  },
+  {
+    "id": "tisra_chapu",
+    "name": "Tisra Chapu",
+    "tala_family": "Chapu",
+    "jaati": "tisra",
+    "angas": [
+      "3"
+    ],
+    "total_aksharas": 3,
+    "anga_breakdown": [
+      {
+        "anga": "3-beat",
+        "beats": 3
+      }
+    ],
+    "clap_pattern": "1-2-3",
+    "common_kritis": [],
+    "usage_frequency": "low",
+    "notes": "3-beat tala; less common in classical compositions."
+  }
+]

@@ -1,0 +1,382 @@
+[
+  {
+    "id": "tyagaraja",
+    "name": "Tyagaraja",
+    "full_name": "Kakarla Tyaga Brahmam",
+    "birth_year": 1767,
+    "death_year": 1847,
+    "birthplace": "Tiruvarur, Tamil Nadu",
+    "primary_language": [
+      "Telugu",
+      "Sanskrit"
+    ],
+    "period": "Late 18th – Early 19th century",
+    "tradition": "Trinity of Carnatic Music",
+    "deities_worshipped": [
+      "Lord Rama"
+    ],
+    "notable_works": [
+      "Pancharatna Kritis (5 gems in Nata, Gowla, Arabhi, Varali, Sri)",
+      "Prahlada Bhakti Vijayam (opera)",
+      "Nowka Charitram (opera)"
+    ],
+    "estimated_compositions": 700,
+    "biography": "Considered the greatest composer of Carnatic music. Devoted entirely to Lord Rama and expressed his devotion through music. Lived in Tiruvaiyaru most of his life.",
+    "key_ragas": [
+      "Sri",
+      "Bhairavi",
+      "Kalyani",
+      "Kambhoji",
+      "Shankarabharanam",
+      "Todi",
+      "Arabhi",
+      "Varali",
+      "Nata",
+      "Abheri"
+    ]
+  },
+  {
+    "id": "muthuswami_dikshitar",
+    "name": "Muthuswami Dikshitar",
+    "full_name": "Muthuswami Dikshitar",
+    "birth_year": 1775,
+    "death_year": 1835,
+    "birthplace": "Tiruvarur, Tamil Nadu",
+    "primary_language": [
+      "Sanskrit",
+      "Telugu",
+      "Tamil",
+      "Manipravala"
+    ],
+    "period": "Late 18th – Early 19th century",
+    "tradition": "Trinity of Carnatic Music",
+    "deities_worshipped": [
+      "Lord Shiva",
+      "Lord Subramanya",
+      "Goddess Kamakshi"
+    ],
+    "notable_works": [
+      "Kamalamba Navavarana kritis",
+      "Navagraha kritis",
+      "Panchalingasthala kritis",
+      "Abhayamba Vibhakthi kritis"
+    ],
+    "estimated_compositions": 500,
+    "biography": "Renowned for Sanskrit kritis, intricate manodharma, and use of rare ragas. Known for incorporating Western musical elements into Carnatic music.",
+    "key_ragas": [
+      "Hamsadhwani",
+      "Kalyani",
+      "Bhairavi",
+      "Shankarabharanam",
+      "Punnagavarali",
+      "Amritavarshini",
+      "Natakurinji",
+      "Anandabhairavi"
+    ]
+  },
+  {
+    "id": "syama_sastri",
+    "name": "Syama Sastri",
+    "full_name": "Syamakrisha Sastri",
+    "birth_year": 1762,
+    "death_year": 1827,
+    "birthplace": "Tiruvarur, Tamil Nadu",
+    "primary_language": [
+      "Telugu",
+      "Sanskrit"
+    ],
+    "period": "Late 18th – Early 19th century",
+    "tradition": "Trinity of Carnatic Music",
+    "deities_worshipped": [
+      "Goddess Kamakshi",
+      "Goddess Parvati"
+    ],
+    "notable_works": [
+      "Svarajati in Anandabhairavi",
+      "Nine kritis on Goddess Meenakshi",
+      "Navaratri kritis"
+    ],
+    "estimated_compositions": 300,
+    "biography": "Fewest compositions among the Trinity but each is considered a gem. Famous for compositions on Goddess Kamakshi and use of complex rhythmic patterns.",
+    "key_ragas": [
+      "Anandabhairavi",
+      "Bhairavi",
+      "Kalyani",
+      "Todi",
+      "Saveri",
+      "Chintamani"
+    ]
+  },
+  {
+    "id": "purandaradasa",
+    "name": "Purandaradasa",
+    "full_name": "Srinivasa Nayaka (Purandaradasa)",
+    "birth_year": 1484,
+    "death_year": 1564,
+    "birthplace": "Purandaragad, Karnataka",
+    "primary_language": [
+      "Kannada",
+      "Sanskrit"
+    ],
+    "period": "15th–16th century",
+    "tradition": "Haridasa movement; Father of Carnatic Music",
+    "deities_worshipped": [
+      "Lord Vishnu (Vittala of Pandharpur)"
+    ],
+    "notable_works": [
+      "Svaravali (systematic lessons for beginners)",
+      "Alankaras (exercises)",
+      "Laksha Gitas (100,000 compositions)"
+    ],
+    "estimated_compositions": 475000,
+    "biography": "Regarded as the Pitamaha (grandfather) of Carnatic music. Systematised the teaching of Carnatic music with Svaravali, Alankaras and exercises still used today.",
+    "key_ragas": [
+      "Madhyamavathi",
+      "Mohanam",
+      "Malahari",
+      "Bilahari",
+      "Kambhoji"
+    ]
+  },
+  {
+    "id": "annamacharya",
+    "name": "Annamacharya",
+    "full_name": "Annamayya / Tallapaka Annamacharya",
+    "birth_year": 1408,
+    "death_year": 1503,
+    "birthplace": "Tallapaka, Andhra Pradesh",
+    "primary_language": [
+      "Telugu"
+    ],
+    "period": "15th century",
+    "tradition": "Vaishnava Bhakti; Father of Telugu Kirtana",
+    "deities_worshipped": [
+      "Lord Venkateswara of Tirupati"
+    ],
+    "notable_works": [
+      "32,000 sankirtanas on copper plates",
+      "Venkateswara Suprabhatam (attributed)"
+    ],
+    "estimated_compositions": 32000,
+    "biography": "First known composer to set devotional songs (sankirtanas) to music in Telugu. Dedicated his life to composing songs about Lord Venkateswara at Tirupati.",
+    "key_ragas": [
+      "Saveri",
+      "Varamu",
+      "Malahari",
+      "Bhairavi",
+      "Todi",
+      "Suddha Dhanyasi"
+    ]
+  },
+  {
+    "id": "oottukkadu_venkata_kavi",
+    "name": "Oottukkadu Venkata Kavi",
+    "full_name": "Oottukkadu Venkata Subba Iyer",
+    "birth_year": 1700,
+    "death_year": 1765,
+    "birthplace": "Oottukkadu, Tamil Nadu",
+    "primary_language": [
+      "Tamil",
+      "Sanskrit",
+      "Telugu"
+    ],
+    "period": "18th century",
+    "tradition": "Carnatic classical",
+    "deities_worshipped": [
+      "Lord Krishna"
+    ],
+    "notable_works": [
+      "Ayyaiyyo Kaantha Thaaye (Tamil)",
+      "Krishna compositions (over 400)"
+    ],
+    "estimated_compositions": 500,
+    "biography": "Known for charming and melodic Krishna compositions in Tamil. His works are joyful, devotional, and rhythmically vibrant.",
+    "key_ragas": [
+      "Mohanam",
+      "Kalyani",
+      "Bhairavi",
+      "Kambhoji",
+      "Huseni"
+    ]
+  },
+  {
+    "id": "swati_tirunal",
+    "name": "Swati Tirunal",
+    "full_name": "His Highness Swati Tirunal Rama Varma",
+    "birth_year": 1813,
+    "death_year": 1846,
+    "birthplace": "Thiruvananthapuram, Kerala",
+    "primary_language": [
+      "Sanskrit",
+      "Malayalam",
+      "Telugu",
+      "Manipravalam",
+      "Hindustani"
+    ],
+    "period": "19th century",
+    "tradition": "Kerala style Carnatic music; Royal composer",
+    "deities_worshipped": [
+      "Lord Padmanabha (Vishnu)"
+    ],
+    "notable_works": [
+      "Bhavayami Raghuramam",
+      "Sarasijanabha Sodaree",
+      "Narayaneeyam settings"
+    ],
+    "estimated_compositions": 400,
+    "biography": "Maharaja of Travancore and a great patron of music. Composed in multiple languages including Hindustani ragas, creating a unique blend.",
+    "key_ragas": [
+      "Kalyani",
+      "Bhairavi",
+      "Todi",
+      "Shankarabharanam",
+      "Mohanam",
+      "Huseni"
+    ]
+  },
+  {
+    "id": "papanasam_sivan",
+    "name": "Papanasam Sivan",
+    "full_name": "Ramiah Sivan (Papanasam Sivan)",
+    "birth_year": 1890,
+    "death_year": 1973,
+    "birthplace": "Papanasam, Tamil Nadu",
+    "primary_language": [
+      "Tamil",
+      "Sanskrit",
+      "Telugu"
+    ],
+    "period": "20th century",
+    "tradition": "Carnatic classical; Tamil devotional",
+    "deities_worshipped": [
+      "Lord Shiva",
+      "Lord Murugan",
+      "Lord Rama"
+    ],
+    "notable_works": [
+      "Compositions in Tamil on Lord Rama",
+      "Film compositions (pre-independence Tamil films)"
+    ],
+    "estimated_compositions": 500,
+    "biography": "Known as the Tamil Tyagaraja. Revived Tamil devotional music and composed both classical and film songs. Major contributor to Tamil Carnatic compositions.",
+    "key_ragas": [
+      "Kalyani",
+      "Todi",
+      "Shankarabharanam",
+      "Bhairavi",
+      "Kambhoji"
+    ]
+  },
+  {
+    "id": "kshetrayya",
+    "name": "Kshetrayya",
+    "full_name": "Kshetrayya / Movedu Venkatarama Kavi",
+    "birth_year": 1600,
+    "death_year": 1680,
+    "birthplace": "Muvva, Andhra Pradesh",
+    "primary_language": [
+      "Telugu"
+    ],
+    "period": "17th century",
+    "tradition": "Padams (love lyrics to Lord Muvvagopala)",
+    "deities_worshipped": [
+      "Lord Krishna (Muvvagopala)"
+    ],
+    "notable_works": [
+      "Over 4000 padams"
+    ],
+    "estimated_compositions": 4000,
+    "biography": "Greatest composer of padams (Telugu love lyrics addressed to Krishna). His compositions use shrungara rasa extensively and are a rich part of Carnatic repertoire.",
+    "key_ragas": [
+      "Kambhoji",
+      "Bhairavi",
+      "Todi",
+      "Mohanam",
+      "Kalyani",
+      "Begada"
+    ]
+  },
+  {
+    "id": "arunagirinathar",
+    "name": "Arunagirinathar",
+    "full_name": "Arunagirinathar",
+    "birth_year": 1400,
+    "death_year": 1470,
+    "birthplace": "Thiruvannamalai, Tamil Nadu",
+    "primary_language": [
+      "Tamil"
+    ],
+    "period": "15th century",
+    "tradition": "Tamil Shaiva Bhakti",
+    "deities_worshipped": [
+      "Lord Murugan (Skanda)"
+    ],
+    "notable_works": [
+      "Thirupugazh (over 16,000 songs)"
+    ],
+    "estimated_compositions": 16000,
+    "biography": "Mystic poet-composer. His Thirupugazh are unique in their complex rhythmic patterns (tala) and are still widely sung and studied.",
+    "key_ragas": [
+      "Various; often set to classical ragas in modern renditions"
+    ]
+  },
+  {
+    "id": "kanakadasa",
+    "name": "Kanakadasa",
+    "full_name": "Thimmappa Nayaka (Kanakadasa)",
+    "birth_year": 1509,
+    "death_year": 1609,
+    "birthplace": "Bada, Karnataka",
+    "primary_language": [
+      "Kannada"
+    ],
+    "period": "16th century",
+    "tradition": "Haridasa movement (Vaishnava)",
+    "deities_worshipped": [
+      "Lord Vishnu (Adikeshava of Kaginele)"
+    ],
+    "notable_works": [
+      "Mohanatarangini",
+      "Ramadhanya Charite",
+      "Nalcharitra"
+    ],
+    "estimated_compositions": 240,
+    "biography": "Saint-composer of the Haridasa tradition. His compositions have profound philosophical depth and social messages; contemporary of Purandaradasa.",
+    "key_ragas": [
+      "Mohanam",
+      "Kambhoji",
+      "Bilahari",
+      "Suddha Saveri"
+    ]
+  },
+  {
+    "id": "gopalakrishna_bharathi",
+    "name": "Gopalakrishna Bharathi",
+    "full_name": "Gopalakrishna Bharathi",
+    "birth_year": 1811,
+    "death_year": 1896,
+    "birthplace": "Nannilam, Tamil Nadu",
+    "primary_language": [
+      "Tamil",
+      "Sanskrit"
+    ],
+    "period": "19th century",
+    "tradition": "Carnatic classical; Tamil devotional",
+    "deities_worshipped": [
+      "Lord Shiva",
+      "Lord Murugan"
+    ],
+    "notable_works": [
+      "Nandanar Charithram (opera)",
+      "En Palli Kondeeraiya"
+    ],
+    "estimated_compositions": 100,
+    "biography": "Composer of the famous Tamil opera Nandanar Charithram and many Tamil devotional kritis. His compositions are deeply rooted in Tamil bhakti tradition.",
+    "key_ragas": [
+      "Kalyani",
+      "Bhairavi",
+      "Natakurinji",
+      "Kambhoji"
+    ]
+  }
+]

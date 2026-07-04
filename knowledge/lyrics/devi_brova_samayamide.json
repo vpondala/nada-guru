@@ -1,0 +1,26 @@
+{
+  "kriti_id": "devi_brova_samayamide",
+  "ragam": "Chintamani",
+  "talam": "Khanda Chapu",
+  "composer": "syama_sastri",
+  "language": "Telugu",
+  "script": "te",
+  "pallavi": {
+    "original": "దేవి బ్రోవ సమయమిదే దయజూడవే",
+    "iast": "dēvi brōva samayamidē dayajūḍavē",
+    "meaning": "O Goddess, now is the time to protect me — show your compassion."
+  },
+  "anupallavi": {
+    "original": "భావజ జనకి పాలిత లోకే పాహి పాహి మాం",
+    "iast": "bhāvaja janaki pālita lōkē pāhi pāhi māṃ",
+    "meaning": "O mother of the one born of the mind (Manmatha), protector of worlds — protect me, protect me."
+  },
+  "charanams": [
+    {
+      "number": 1,
+      "original": "కంచిపుర నివాసిని కామాక్షి కరుణాలయే",
+      "iast": "kaṃcipura nivāsini kāmākṣi karuṇālayē",
+      "meaning": "O Kamakshi, resident of Kanchipuram, abode of compassion."
+    }
+  ]
+}

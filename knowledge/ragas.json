@@ -1,0 +1,4180 @@
+[
+  {
+    "id": "kanakangi",
+    "melakarta_number": 1,
+    "name": "Kanakangi",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 1,
+    "chakra_name": "Indu",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G1",
+      "madhyama": "M1",
+      "dhaivata": "D1",
+      "nishada": "N1"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G1",
+      "M1",
+      "P",
+      "D1",
+      "N1",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N1",
+      "D1",
+      "P",
+      "M1",
+      "G1",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "ratnangi",
+    "melakarta_number": 2,
+    "name": "Ratnangi",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 1,
+    "chakra_name": "Indu",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G1",
+      "madhyama": "M1",
+      "dhaivata": "D1",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G1",
+      "M1",
+      "P",
+      "D1",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D1",
+      "P",
+      "M1",
+      "G1",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "ganamurthi",
+    "melakarta_number": 3,
+    "name": "Ganamurthi",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 1,
+    "chakra_name": "Indu",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G1",
+      "madhyama": "M1",
+      "dhaivata": "D1",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G1",
+      "M1",
+      "P",
+      "D1",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D1",
+      "P",
+      "M1",
+      "G1",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "vanaspathi",
+    "melakarta_number": 4,
+    "name": "Vanaspathi",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 1,
+    "chakra_name": "Indu",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G1",
+      "madhyama": "M1",
+      "dhaivata": "D2",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G1",
+      "M1",
+      "P",
+      "D2",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D2",
+      "P",
+      "M1",
+      "G1",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "manavathi",
+    "melakarta_number": 5,
+    "name": "Manavathi",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 1,
+    "chakra_name": "Indu",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G1",
+      "madhyama": "M1",
+      "dhaivata": "D2",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G1",
+      "M1",
+      "P",
+      "D2",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D2",
+      "P",
+      "M1",
+      "G1",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "tanarupi",
+    "melakarta_number": 6,
+    "name": "Tanarupi",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 1,
+    "chakra_name": "Indu",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G1",
+      "madhyama": "M1",
+      "dhaivata": "D3",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G1",
+      "M1",
+      "P",
+      "D3",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D3",
+      "P",
+      "M1",
+      "G1",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "senavathi",
+    "melakarta_number": 7,
+    "name": "Senavathi",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 2,
+    "chakra_name": "Netra",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G2",
+      "madhyama": "M1",
+      "dhaivata": "D1",
+      "nishada": "N1"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G2",
+      "M1",
+      "P",
+      "D1",
+      "N1",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N1",
+      "D1",
+      "P",
+      "M1",
+      "G2",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "hanumatodi",
+    "melakarta_number": 8,
+    "name": "Hanumatodi",
+    "alternate_names": [
+      "Todi"
+    ],
+    "type": "melakarta",
+    "chakra_number": 2,
+    "chakra_name": "Netra",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G2",
+      "madhyama": "M1",
+      "dhaivata": "D1",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G2",
+      "M1",
+      "P",
+      "D1",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D1",
+      "P",
+      "M1",
+      "G2",
+      "R1",
+      "S"
+    ],
+    "vadi": "M1",
+    "samvadi": "G2",
+    "rasa": [
+      "karuna",
+      "bhakti",
+      "shringara"
+    ],
+    "time_of_day": "morning",
+    "janya_ragas": [
+      "Todi",
+      "Dhanyasi",
+      "Suddha Dhanyasi",
+      "Varamu"
+    ],
+    "notable_kritis": []
+  },
+  {
+    "id": "dhenuka",
+    "melakarta_number": 9,
+    "name": "Dhenuka",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 2,
+    "chakra_name": "Netra",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G2",
+      "madhyama": "M1",
+      "dhaivata": "D1",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G2",
+      "M1",
+      "P",
+      "D1",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D1",
+      "P",
+      "M1",
+      "G2",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "natakapriya",
+    "melakarta_number": 10,
+    "name": "Natakapriya",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 2,
+    "chakra_name": "Netra",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G2",
+      "madhyama": "M1",
+      "dhaivata": "D2",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G2",
+      "M1",
+      "P",
+      "D2",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D2",
+      "P",
+      "M1",
+      "G2",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "kokilapriya",
+    "melakarta_number": 11,
+    "name": "Kokilapriya",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 2,
+    "chakra_name": "Netra",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G2",
+      "madhyama": "M1",
+      "dhaivata": "D2",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G2",
+      "M1",
+      "P",
+      "D2",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D2",
+      "P",
+      "M1",
+      "G2",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "rupavathi",
+    "melakarta_number": 12,
+    "name": "Rupavathi",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 2,
+    "chakra_name": "Netra",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G2",
+      "madhyama": "M1",
+      "dhaivata": "D3",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G2",
+      "M1",
+      "P",
+      "D3",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D3",
+      "P",
+      "M1",
+      "G2",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "gayakapriya",
+    "melakarta_number": 13,
+    "name": "Gayakapriya",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 3,
+    "chakra_name": "Agni",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G3",
+      "madhyama": "M1",
+      "dhaivata": "D1",
+      "nishada": "N1"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G3",
+      "M1",
+      "P",
+      "D1",
+      "N1",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N1",
+      "D1",
+      "P",
+      "M1",
+      "G3",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "vakulabharanam",
+    "melakarta_number": 14,
+    "name": "Vakulabharanam",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 3,
+    "chakra_name": "Agni",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G3",
+      "madhyama": "M1",
+      "dhaivata": "D1",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G3",
+      "M1",
+      "P",
+      "D1",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D1",
+      "P",
+      "M1",
+      "G3",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [
+      "bhakti"
+    ],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "mayamalavagowla",
+    "melakarta_number": 15,
+    "name": "Mayamalavagowla",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 3,
+    "chakra_name": "Agni",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G3",
+      "madhyama": "M1",
+      "dhaivata": "D1",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G3",
+      "M1",
+      "P",
+      "D1",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D1",
+      "P",
+      "M1",
+      "G3",
+      "R1",
+      "S"
+    ],
+    "vadi": "M1",
+    "samvadi": "R1",
+    "rasa": [
+      "bhakti",
+      "shanta"
+    ],
+    "time_of_day": "early_morning",
+    "janya_ragas": [
+      "Malahari",
+      "Bilahari (partial)",
+      "Saveri (partial)"
+    ],
+    "notable_kritis": []
+  },
+  {
+    "id": "chakravakam",
+    "melakarta_number": 16,
+    "name": "Chakravakam",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 3,
+    "chakra_name": "Agni",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G3",
+      "madhyama": "M1",
+      "dhaivata": "D2",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G3",
+      "M1",
+      "P",
+      "D2",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D2",
+      "P",
+      "M1",
+      "G3",
+      "R1",
+      "S"
+    ],
+    "vadi": "R2",
+    "samvadi": "P",
+    "rasa": [
+      "bhakti",
+      "vira"
+    ],
+    "time_of_day": "morning",
+    "janya_ragas": [
+      "Abhogi",
+      "Nayaki"
+    ],
+    "notable_kritis": []
+  },
+  {
+    "id": "suryakantam",
+    "melakarta_number": 17,
+    "name": "Suryakantam",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 3,
+    "chakra_name": "Agni",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G3",
+      "madhyama": "M1",
+      "dhaivata": "D2",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G3",
+      "M1",
+      "P",
+      "D2",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D2",
+      "P",
+      "M1",
+      "G3",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [
+      "bhakti",
+      "shanta"
+    ],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "hatakambari",
+    "melakarta_number": 18,
+    "name": "Hatakambari",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 3,
+    "chakra_name": "Agni",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G3",
+      "madhyama": "M1",
+      "dhaivata": "D3",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G3",
+      "M1",
+      "P",
+      "D3",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D3",
+      "P",
+      "M1",
+      "G3",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "jhankaradhwani",
+    "melakarta_number": 19,
+    "name": "Jhankaradhwani",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 4,
+    "chakra_name": "Veda",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G2",
+      "madhyama": "M1",
+      "dhaivata": "D1",
+      "nishada": "N1"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G2",
+      "M1",
+      "P",
+      "D1",
+      "N1",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N1",
+      "D1",
+      "P",
+      "M1",
+      "G2",
+      "R2",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "natabhairavi",
+    "melakarta_number": 20,
+    "name": "Natabhairavi",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 4,
+    "chakra_name": "Veda",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G2",
+      "madhyama": "M1",
+      "dhaivata": "D1",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G2",
+      "M1",
+      "P",
+      "D1",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D1",
+      "P",
+      "M1",
+      "G2",
+      "R2",
+      "S"
+    ],
+    "vadi": "M1",
+    "samvadi": "S",
+    "rasa": [
+      "karuna",
+      "bhakti"
+    ],
+    "time_of_day": "evening",
+    "janya_ragas": [
+      "Abheri",
+      "Dwijavanti",
+      "Nayaki",
+      "Bhairavi (derivative)"
+    ],
+    "notable_kritis": []
+  },
+  {
+    "id": "kiravani",
+    "melakarta_number": 21,
+    "name": "Kiravani",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 4,
+    "chakra_name": "Veda",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G2",
+      "madhyama": "M1",
+      "dhaivata": "D1",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G2",
+      "M1",
+      "P",
+      "D1",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D1",
+      "P",
+      "M1",
+      "G2",
+      "R2",
+      "S"
+    ],
+    "vadi": "M1",
+    "samvadi": "R2",
+    "rasa": [
+      "karuna",
+      "shringara"
+    ],
+    "time_of_day": "night",
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "kharaharapriya",
+    "melakarta_number": 22,
+    "name": "Kharaharapriya",
+    "alternate_names": [
+      "Kharaharapriya"
+    ],
+    "type": "melakarta",
+    "chakra_number": 4,
+    "chakra_name": "Veda",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G2",
+      "madhyama": "M1",
+      "dhaivata": "D2",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G2",
+      "M1",
+      "P",
+      "D2",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D2",
+      "P",
+      "M1",
+      "G2",
+      "R2",
+      "S"
+    ],
+    "vadi": "M1",
+    "samvadi": "S",
+    "rasa": [
+      "bhakti",
+      "shanta"
+    ],
+    "time_of_day": "afternoon",
+    "janya_ragas": [
+      "Bhairavi",
+      "Sindhu Bhairavi"
+    ],
+    "notable_kritis": []
+  },
+  {
+    "id": "gourimanohari",
+    "melakarta_number": 23,
+    "name": "Gourimanohari",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 4,
+    "chakra_name": "Veda",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G2",
+      "madhyama": "M1",
+      "dhaivata": "D2",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G2",
+      "M1",
+      "P",
+      "D2",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D2",
+      "P",
+      "M1",
+      "G2",
+      "R2",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [
+      "shringara",
+      "karuna"
+    ],
+    "time_of_day": "morning",
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "varunapriya",
+    "melakarta_number": 24,
+    "name": "Varunapriya",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 4,
+    "chakra_name": "Veda",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G2",
+      "madhyama": "M1",
+      "dhaivata": "D3",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G2",
+      "M1",
+      "P",
+      "D3",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D3",
+      "P",
+      "M1",
+      "G2",
+      "R2",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "mararanjani",
+    "melakarta_number": 25,
+    "name": "Mararanjani",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 5,
+    "chakra_name": "Bana",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G3",
+      "madhyama": "M1",
+      "dhaivata": "D1",
+      "nishada": "N1"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "M1",
+      "P",
+      "D1",
+      "N1",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N1",
+      "D1",
+      "P",
+      "M1",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "charukesi",
+    "melakarta_number": 26,
+    "name": "Charukesi",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 5,
+    "chakra_name": "Bana",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G3",
+      "madhyama": "M1",
+      "dhaivata": "D1",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "M1",
+      "P",
+      "D1",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D1",
+      "P",
+      "M1",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": "P",
+    "samvadi": "R2",
+    "rasa": [
+      "bhakti",
+      "shanta",
+      "vira"
+    ],
+    "time_of_day": "evening",
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "sarasangi",
+    "melakarta_number": 27,
+    "name": "Sarasangi",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 5,
+    "chakra_name": "Bana",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G3",
+      "madhyama": "M1",
+      "dhaivata": "D1",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "M1",
+      "P",
+      "D1",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D1",
+      "P",
+      "M1",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "harikambhoji",
+    "melakarta_number": 28,
+    "name": "Harikambhoji",
+    "alternate_names": [
+      "Harikambhoji"
+    ],
+    "type": "melakarta",
+    "chakra_number": 5,
+    "chakra_name": "Bana",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G3",
+      "madhyama": "M1",
+      "dhaivata": "D2",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "M1",
+      "P",
+      "D2",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D2",
+      "P",
+      "M1",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": "P",
+    "samvadi": "R2",
+    "rasa": [
+      "bhakti",
+      "shringara"
+    ],
+    "time_of_day": "evening",
+    "janya_ragas": [
+      "Kambhoji",
+      "Mohanam",
+      "Madhyamavathi",
+      "Suddha Saveri",
+      "Khamas (partial)"
+    ],
+    "notable_kritis": []
+  },
+  {
+    "id": "dheerashankarabharanam",
+    "melakarta_number": 29,
+    "name": "Dheerashankarabharanam",
+    "alternate_names": [
+      "Shankarabharanam"
+    ],
+    "type": "melakarta",
+    "chakra_number": 5,
+    "chakra_name": "Bana",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G3",
+      "madhyama": "M1",
+      "dhaivata": "D2",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "M1",
+      "P",
+      "D2",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D2",
+      "P",
+      "M1",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": "G3",
+    "samvadi": "N3",
+    "rasa": [
+      "vira",
+      "bhakti",
+      "shringara"
+    ],
+    "time_of_day": "morning",
+    "janya_ragas": [
+      "Bilahari",
+      "Hamsadhwani",
+      "Kedaragowla",
+      "Sahana",
+      "Devagandhari",
+      "Atana"
+    ],
+    "notable_kritis": []
+  },
+  {
+    "id": "naganandini",
+    "melakarta_number": 30,
+    "name": "Naganandini",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 5,
+    "chakra_name": "Bana",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G3",
+      "madhyama": "M1",
+      "dhaivata": "D3",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "M1",
+      "P",
+      "D3",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D3",
+      "P",
+      "M1",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "yagapriya",
+    "melakarta_number": 31,
+    "name": "Yagapriya",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 6,
+    "chakra_name": "Ruthu",
+    "swaras": {
+      "rishabha": "R3",
+      "gandhara": "G3",
+      "madhyama": "M1",
+      "dhaivata": "D1",
+      "nishada": "N1"
+    },
+    "arohana": [
+      "S",
+      "R3",
+      "G3",
+      "M1",
+      "P",
+      "D1",
+      "N1",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N1",
+      "D1",
+      "P",
+      "M1",
+      "G3",
+      "R3",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "ragavardhini",
+    "melakarta_number": 32,
+    "name": "Ragavardhini",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 6,
+    "chakra_name": "Ruthu",
+    "swaras": {
+      "rishabha": "R3",
+      "gandhara": "G3",
+      "madhyama": "M1",
+      "dhaivata": "D1",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R3",
+      "G3",
+      "M1",
+      "P",
+      "D1",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D1",
+      "P",
+      "M1",
+      "G3",
+      "R3",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "gangeyabhushani",
+    "melakarta_number": 33,
+    "name": "Gangeyabhushani",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 6,
+    "chakra_name": "Ruthu",
+    "swaras": {
+      "rishabha": "R3",
+      "gandhara": "G3",
+      "madhyama": "M1",
+      "dhaivata": "D1",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R3",
+      "G3",
+      "M1",
+      "P",
+      "D1",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D1",
+      "P",
+      "M1",
+      "G3",
+      "R3",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "vagadheeswari",
+    "melakarta_number": 34,
+    "name": "Vagadheeswari",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 6,
+    "chakra_name": "Ruthu",
+    "swaras": {
+      "rishabha": "R3",
+      "gandhara": "G3",
+      "madhyama": "M1",
+      "dhaivata": "D2",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R3",
+      "G3",
+      "M1",
+      "P",
+      "D2",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D2",
+      "P",
+      "M1",
+      "G3",
+      "R3",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "shulini",
+    "melakarta_number": 35,
+    "name": "Shulini",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 6,
+    "chakra_name": "Ruthu",
+    "swaras": {
+      "rishabha": "R3",
+      "gandhara": "G3",
+      "madhyama": "M1",
+      "dhaivata": "D2",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R3",
+      "G3",
+      "M1",
+      "P",
+      "D2",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D2",
+      "P",
+      "M1",
+      "G3",
+      "R3",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "chalanata",
+    "melakarta_number": 36,
+    "name": "Chalanata",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 6,
+    "chakra_name": "Ruthu",
+    "swaras": {
+      "rishabha": "R3",
+      "gandhara": "G3",
+      "madhyama": "M1",
+      "dhaivata": "D3",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R3",
+      "G3",
+      "M1",
+      "P",
+      "D3",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D3",
+      "P",
+      "M1",
+      "G3",
+      "R3",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [
+      "Chalanata derivatives"
+    ],
+    "notable_kritis": []
+  },
+  {
+    "id": "salagam",
+    "melakarta_number": 37,
+    "name": "Salagam",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 7,
+    "chakra_name": "Rishi",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G1",
+      "madhyama": "M2",
+      "dhaivata": "D1",
+      "nishada": "N1"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G1",
+      "M2",
+      "P",
+      "D1",
+      "N1",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N1",
+      "D1",
+      "P",
+      "M2",
+      "G1",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "jalarnavam",
+    "melakarta_number": 38,
+    "name": "Jalarnavam",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 7,
+    "chakra_name": "Rishi",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G1",
+      "madhyama": "M2",
+      "dhaivata": "D1",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G1",
+      "M2",
+      "P",
+      "D1",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D1",
+      "P",
+      "M2",
+      "G1",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "jhalavarali",
+    "melakarta_number": 39,
+    "name": "Jhalavarali",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 7,
+    "chakra_name": "Rishi",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G1",
+      "madhyama": "M2",
+      "dhaivata": "D1",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G1",
+      "M2",
+      "P",
+      "D1",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D1",
+      "P",
+      "M2",
+      "G1",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "navaneetam",
+    "melakarta_number": 40,
+    "name": "Navaneetam",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 7,
+    "chakra_name": "Rishi",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G1",
+      "madhyama": "M2",
+      "dhaivata": "D2",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G1",
+      "M2",
+      "P",
+      "D2",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D2",
+      "P",
+      "M2",
+      "G1",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "pavani",
+    "melakarta_number": 41,
+    "name": "Pavani",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 7,
+    "chakra_name": "Rishi",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G1",
+      "madhyama": "M2",
+      "dhaivata": "D2",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G1",
+      "M2",
+      "P",
+      "D2",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D2",
+      "P",
+      "M2",
+      "G1",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "raghupriya",
+    "melakarta_number": 42,
+    "name": "Raghupriya",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 7,
+    "chakra_name": "Rishi",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G1",
+      "madhyama": "M2",
+      "dhaivata": "D3",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G1",
+      "M2",
+      "P",
+      "D3",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D3",
+      "P",
+      "M2",
+      "G1",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "gavambodhi",
+    "melakarta_number": 43,
+    "name": "Gavambodhi",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 8,
+    "chakra_name": "Vasu",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G2",
+      "madhyama": "M2",
+      "dhaivata": "D1",
+      "nishada": "N1"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G2",
+      "M2",
+      "P",
+      "D1",
+      "N1",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N1",
+      "D1",
+      "P",
+      "M2",
+      "G2",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "bhavapriya",
+    "melakarta_number": 44,
+    "name": "Bhavapriya",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 8,
+    "chakra_name": "Vasu",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G2",
+      "madhyama": "M2",
+      "dhaivata": "D1",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G2",
+      "M2",
+      "P",
+      "D1",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D1",
+      "P",
+      "M2",
+      "G2",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "shubhapantuvarali",
+    "melakarta_number": 45,
+    "name": "Shubhapantuvarali",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 8,
+    "chakra_name": "Vasu",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G2",
+      "madhyama": "M2",
+      "dhaivata": "D1",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G2",
+      "M2",
+      "P",
+      "D1",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D1",
+      "P",
+      "M2",
+      "G2",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "shadvidhamargini",
+    "melakarta_number": 46,
+    "name": "Shadvidhamargini",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 8,
+    "chakra_name": "Vasu",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G2",
+      "madhyama": "M2",
+      "dhaivata": "D2",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G2",
+      "M2",
+      "P",
+      "D2",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D2",
+      "P",
+      "M2",
+      "G2",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "suvarnangi",
+    "melakarta_number": 47,
+    "name": "Suvarnangi",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 8,
+    "chakra_name": "Vasu",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G2",
+      "madhyama": "M2",
+      "dhaivata": "D2",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G2",
+      "M2",
+      "P",
+      "D2",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D2",
+      "P",
+      "M2",
+      "G2",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "divyamani",
+    "melakarta_number": 48,
+    "name": "Divyamani",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 8,
+    "chakra_name": "Vasu",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G2",
+      "madhyama": "M2",
+      "dhaivata": "D3",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G2",
+      "M2",
+      "P",
+      "D3",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D3",
+      "P",
+      "M2",
+      "G2",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "dhavalambari",
+    "melakarta_number": 49,
+    "name": "Dhavalambari",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 9,
+    "chakra_name": "Brahma",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G3",
+      "madhyama": "M2",
+      "dhaivata": "D1",
+      "nishada": "N1"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G3",
+      "M2",
+      "P",
+      "D1",
+      "N1",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N1",
+      "D1",
+      "P",
+      "M2",
+      "G3",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "namanarayani",
+    "melakarta_number": 50,
+    "name": "Namanarayani",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 9,
+    "chakra_name": "Brahma",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G3",
+      "madhyama": "M2",
+      "dhaivata": "D1",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G3",
+      "M2",
+      "P",
+      "D1",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D1",
+      "P",
+      "M2",
+      "G3",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "kamavardhini",
+    "melakarta_number": 51,
+    "name": "Kamavardhini",
+    "alternate_names": [
+      "Pantuvarali"
+    ],
+    "type": "melakarta",
+    "chakra_number": 9,
+    "chakra_name": "Brahma",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G3",
+      "madhyama": "M2",
+      "dhaivata": "D1",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G3",
+      "M2",
+      "P",
+      "D1",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D1",
+      "P",
+      "M2",
+      "G3",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [
+      "Revati",
+      "Punnagavarali"
+    ],
+    "notable_kritis": []
+  },
+  {
+    "id": "ramapriya",
+    "melakarta_number": 52,
+    "name": "Ramapriya",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 9,
+    "chakra_name": "Brahma",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G3",
+      "madhyama": "M2",
+      "dhaivata": "D2",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G3",
+      "M2",
+      "P",
+      "D2",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D2",
+      "P",
+      "M2",
+      "G3",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "gamanashrama",
+    "melakarta_number": 53,
+    "name": "Gamanashrama",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 9,
+    "chakra_name": "Brahma",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G3",
+      "madhyama": "M2",
+      "dhaivata": "D2",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G3",
+      "M2",
+      "P",
+      "D2",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D2",
+      "P",
+      "M2",
+      "G3",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "vishwambhari",
+    "melakarta_number": 54,
+    "name": "Vishwambhari",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 9,
+    "chakra_name": "Brahma",
+    "swaras": {
+      "rishabha": "R1",
+      "gandhara": "G3",
+      "madhyama": "M2",
+      "dhaivata": "D3",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R1",
+      "G3",
+      "M2",
+      "P",
+      "D3",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D3",
+      "P",
+      "M2",
+      "G3",
+      "R1",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "shamalangi",
+    "melakarta_number": 55,
+    "name": "Shamalangi",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 10,
+    "chakra_name": "Disi",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G2",
+      "madhyama": "M2",
+      "dhaivata": "D1",
+      "nishada": "N1"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G2",
+      "M2",
+      "P",
+      "D1",
+      "N1",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N1",
+      "D1",
+      "P",
+      "M2",
+      "G2",
+      "R2",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "shanmukhapriya",
+    "melakarta_number": 56,
+    "name": "Shanmukhapriya",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 10,
+    "chakra_name": "Disi",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G2",
+      "madhyama": "M2",
+      "dhaivata": "D1",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G2",
+      "M2",
+      "P",
+      "D1",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D1",
+      "P",
+      "M2",
+      "G2",
+      "R2",
+      "S"
+    ],
+    "vadi": "M2",
+    "samvadi": "S",
+    "rasa": [
+      "shringara",
+      "bhakti"
+    ],
+    "time_of_day": "evening",
+    "janya_ragas": [
+      "Shanmukhapriya",
+      "Nagaswaravali"
+    ],
+    "notable_kritis": []
+  },
+  {
+    "id": "simhendramadhyamam",
+    "melakarta_number": 57,
+    "name": "Simhendramadhyamam",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 10,
+    "chakra_name": "Disi",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G2",
+      "madhyama": "M2",
+      "dhaivata": "D1",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G2",
+      "M2",
+      "P",
+      "D1",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D1",
+      "P",
+      "M2",
+      "G2",
+      "R2",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "hemavathi",
+    "melakarta_number": 58,
+    "name": "Hemavathi",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 10,
+    "chakra_name": "Disi",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G2",
+      "madhyama": "M2",
+      "dhaivata": "D2",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G2",
+      "M2",
+      "P",
+      "D2",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D2",
+      "P",
+      "M2",
+      "G2",
+      "R2",
+      "S"
+    ],
+    "vadi": "G3",
+    "samvadi": "N3",
+    "rasa": [
+      "bhakti",
+      "karuna"
+    ],
+    "time_of_day": "evening",
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "dharmavathi",
+    "melakarta_number": 59,
+    "name": "Dharmavathi",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 10,
+    "chakra_name": "Disi",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G2",
+      "madhyama": "M2",
+      "dhaivata": "D2",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G2",
+      "M2",
+      "P",
+      "D2",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D2",
+      "P",
+      "M2",
+      "G2",
+      "R2",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "neetimathi",
+    "melakarta_number": 60,
+    "name": "Neetimathi",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 10,
+    "chakra_name": "Disi",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G2",
+      "madhyama": "M2",
+      "dhaivata": "D3",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G2",
+      "M2",
+      "P",
+      "D3",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D3",
+      "P",
+      "M2",
+      "G2",
+      "R2",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "kantamani",
+    "melakarta_number": 61,
+    "name": "Kantamani",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 11,
+    "chakra_name": "Rudra",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G3",
+      "madhyama": "M2",
+      "dhaivata": "D1",
+      "nishada": "N1"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "M2",
+      "P",
+      "D1",
+      "N1",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N1",
+      "D1",
+      "P",
+      "M2",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "rishabhapriya",
+    "melakarta_number": 62,
+    "name": "Rishabhapriya",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 11,
+    "chakra_name": "Rudra",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G3",
+      "madhyama": "M2",
+      "dhaivata": "D1",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "M2",
+      "P",
+      "D1",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D1",
+      "P",
+      "M2",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "latangi",
+    "melakarta_number": 63,
+    "name": "Latangi",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 11,
+    "chakra_name": "Rudra",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G3",
+      "madhyama": "M2",
+      "dhaivata": "D1",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "M2",
+      "P",
+      "D1",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D1",
+      "P",
+      "M2",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": "D2",
+    "samvadi": "G3",
+    "rasa": [
+      "bhakti"
+    ],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "vachaspathi",
+    "melakarta_number": 64,
+    "name": "Vachaspathi",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 11,
+    "chakra_name": "Rudra",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G3",
+      "madhyama": "M2",
+      "dhaivata": "D2",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "M2",
+      "P",
+      "D2",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D2",
+      "P",
+      "M2",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": "M2",
+    "samvadi": "S",
+    "rasa": [
+      "bhakti",
+      "shanta"
+    ],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "mechakalyani",
+    "melakarta_number": 65,
+    "name": "Mechakalyani",
+    "alternate_names": [
+      "Kalyani"
+    ],
+    "type": "melakarta",
+    "chakra_number": 11,
+    "chakra_name": "Rudra",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G3",
+      "madhyama": "M2",
+      "dhaivata": "D2",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "M2",
+      "P",
+      "D2",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D2",
+      "P",
+      "M2",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": "M2",
+    "samvadi": "S",
+    "rasa": [
+      "bhakti",
+      "shanta",
+      "shringara"
+    ],
+    "time_of_day": "evening",
+    "janya_ragas": [
+      "Hamirkalyani",
+      "Yamunakalyani",
+      "Bhupalam",
+      "Hindolam (modal)"
+    ],
+    "notable_kritis": []
+  },
+  {
+    "id": "chitrambari",
+    "melakarta_number": 66,
+    "name": "Chitrambari",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 11,
+    "chakra_name": "Rudra",
+    "swaras": {
+      "rishabha": "R2",
+      "gandhara": "G3",
+      "madhyama": "M2",
+      "dhaivata": "D3",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "M2",
+      "P",
+      "D3",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D3",
+      "P",
+      "M2",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "sucharitra",
+    "melakarta_number": 67,
+    "name": "Sucharitra",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 12,
+    "chakra_name": "Aditya",
+    "swaras": {
+      "rishabha": "R3",
+      "gandhara": "G3",
+      "madhyama": "M2",
+      "dhaivata": "D1",
+      "nishada": "N1"
+    },
+    "arohana": [
+      "S",
+      "R3",
+      "G3",
+      "M2",
+      "P",
+      "D1",
+      "N1",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N1",
+      "D1",
+      "P",
+      "M2",
+      "G3",
+      "R3",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "jyotiswarupini",
+    "melakarta_number": 68,
+    "name": "Jyotiswarupini",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 12,
+    "chakra_name": "Aditya",
+    "swaras": {
+      "rishabha": "R3",
+      "gandhara": "G3",
+      "madhyama": "M2",
+      "dhaivata": "D1",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R3",
+      "G3",
+      "M2",
+      "P",
+      "D1",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D1",
+      "P",
+      "M2",
+      "G3",
+      "R3",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "dhatuvardhini",
+    "melakarta_number": 69,
+    "name": "Dhatuvardhini",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 12,
+    "chakra_name": "Aditya",
+    "swaras": {
+      "rishabha": "R3",
+      "gandhara": "G3",
+      "madhyama": "M2",
+      "dhaivata": "D1",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R3",
+      "G3",
+      "M2",
+      "P",
+      "D1",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D1",
+      "P",
+      "M2",
+      "G3",
+      "R3",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "nasikabhushani",
+    "melakarta_number": 70,
+    "name": "Nasikabhushani",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 12,
+    "chakra_name": "Aditya",
+    "swaras": {
+      "rishabha": "R3",
+      "gandhara": "G3",
+      "madhyama": "M2",
+      "dhaivata": "D2",
+      "nishada": "N2"
+    },
+    "arohana": [
+      "S",
+      "R3",
+      "G3",
+      "M2",
+      "P",
+      "D2",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D2",
+      "P",
+      "M2",
+      "G3",
+      "R3",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "kosalam",
+    "melakarta_number": 71,
+    "name": "Kosalam",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 12,
+    "chakra_name": "Aditya",
+    "swaras": {
+      "rishabha": "R3",
+      "gandhara": "G3",
+      "madhyama": "M2",
+      "dhaivata": "D2",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R3",
+      "G3",
+      "M2",
+      "P",
+      "D2",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D2",
+      "P",
+      "M2",
+      "G3",
+      "R3",
+      "S"
+    ],
+    "vadi": null,
+    "samvadi": null,
+    "rasa": [],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "rasikapriya",
+    "melakarta_number": 72,
+    "name": "Rasikapriya",
+    "alternate_names": [],
+    "type": "melakarta",
+    "chakra_number": 12,
+    "chakra_name": "Aditya",
+    "swaras": {
+      "rishabha": "R3",
+      "gandhara": "G3",
+      "madhyama": "M2",
+      "dhaivata": "D3",
+      "nishada": "N3"
+    },
+    "arohana": [
+      "S",
+      "R3",
+      "G3",
+      "M2",
+      "P",
+      "D3",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D3",
+      "P",
+      "M2",
+      "G3",
+      "R3",
+      "S"
+    ],
+    "vadi": "G3",
+    "samvadi": "N3",
+    "rasa": [
+      "shringara",
+      "bhakti"
+    ],
+    "time_of_day": null,
+    "janya_ragas": [],
+    "notable_kritis": []
+  },
+  {
+    "id": "abheri",
+    "name": "Abheri",
+    "type": "janya",
+    "parent_melakarta": 20,
+    "parent_name": "Natabhairavi",
+    "arohana": [
+      "S",
+      "R2",
+      "G2",
+      "M1",
+      "P",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D1",
+      "P",
+      "M1",
+      "G2",
+      "R2",
+      "S"
+    ],
+    "vadi": "G2",
+    "samvadi": "N2",
+    "rasa": [
+      "bhakti",
+      "karuna"
+    ],
+    "time_of_day": "evening",
+    "description": "An audava-sampurna (asymmetric) raga with deeply devotional character."
+  },
+  {
+    "id": "abhogi",
+    "name": "Abhogi",
+    "type": "janya",
+    "parent_melakarta": 22,
+    "parent_name": "Kharaharapriya",
+    "arohana": [
+      "S",
+      "R2",
+      "G2",
+      "M1",
+      "D2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "D2",
+      "M1",
+      "G2",
+      "R2",
+      "S"
+    ],
+    "vadi": "G2",
+    "samvadi": "D2",
+    "rasa": [
+      "shanta",
+      "bhakti"
+    ],
+    "time_of_day": "afternoon",
+    "description": "Pentatonic (audava-audava) raga with a serene, contemplative mood."
+  },
+  {
+    "id": "anandabhairavi",
+    "name": "Anandabhairavi",
+    "type": "janya",
+    "parent_melakarta": 20,
+    "parent_name": "Natabhairavi",
+    "arohana": [
+      "S",
+      "R2",
+      "G2",
+      "M1",
+      "P",
+      "D1",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "D1",
+      "P",
+      "M1",
+      "G2",
+      "R2",
+      "G2",
+      "R2",
+      "S"
+    ],
+    "vadi": "G2",
+    "samvadi": "D1",
+    "rasa": [
+      "shringara",
+      "karuna"
+    ],
+    "time_of_day": "morning",
+    "description": "Raga of love and longing; associated with Syama Sastri's finest kritis."
+  },
+  {
+    "id": "atana",
+    "name": "Atana",
+    "type": "janya",
+    "parent_melakarta": 29,
+    "parent_name": "Dheerashankarabharanam",
+    "arohana": [
+      "S",
+      "R2",
+      "M1",
+      "P",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "P",
+      "D2",
+      "N3",
+      "P",
+      "M1",
+      "R2",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": "P",
+    "samvadi": "R2",
+    "rasa": [
+      "vira",
+      "bhakti"
+    ],
+    "time_of_day": "night",
+    "description": "A rakti raga known for vigour; many Tyagaraja kritis."
+  },
+  {
+    "id": "bhairavi",
+    "name": "Bhairavi",
+    "type": "janya",
+    "parent_melakarta": 20,
+    "parent_name": "Natabhairavi",
+    "arohana": [
+      "S",
+      "R2",
+      "G2",
+      "M1",
+      "P",
+      "D1",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D1",
+      "P",
+      "M1",
+      "G2",
+      "R2",
+      "S"
+    ],
+    "vadi": "M1",
+    "samvadi": "S",
+    "rasa": [
+      "karuna",
+      "bhakti",
+      "shringara"
+    ],
+    "time_of_day": "early_morning",
+    "description": "One of the most popular and emotionally deep ragas in Carnatic music."
+  },
+  {
+    "id": "bilahari",
+    "name": "Bilahari",
+    "type": "janya",
+    "parent_melakarta": 29,
+    "parent_name": "Dheerashankarabharanam",
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "P",
+      "D2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D2",
+      "P",
+      "M1",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": "G3",
+    "samvadi": "D2",
+    "rasa": [
+      "bhakti",
+      "shringara"
+    ],
+    "time_of_day": "morning",
+    "description": "Bright, devotional raga often used for mangalam pieces and bhajans."
+  },
+  {
+    "id": "devagandhari",
+    "name": "Devagandhari",
+    "type": "janya",
+    "parent_melakarta": 29,
+    "parent_name": "Dheerashankarabharanam",
+    "arohana": [
+      "S",
+      "R2",
+      "M1",
+      "P",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D2",
+      "P",
+      "M1",
+      "R2",
+      "S"
+    ],
+    "vadi": "M1",
+    "samvadi": "P",
+    "rasa": [
+      "bhakti",
+      "karuna"
+    ],
+    "time_of_day": "evening",
+    "description": "Serene raga associated with devotion and grace."
+  },
+  {
+    "id": "dhanyasi",
+    "name": "Dhanyasi",
+    "type": "janya",
+    "parent_melakarta": 8,
+    "parent_name": "Hanumatodi",
+    "arohana": [
+      "S",
+      "G2",
+      "M1",
+      "P",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D1",
+      "P",
+      "M1",
+      "G2",
+      "R1",
+      "S"
+    ],
+    "vadi": "G2",
+    "samvadi": "N2",
+    "rasa": [
+      "bhakti",
+      "karuna"
+    ],
+    "time_of_day": "morning",
+    "description": "Soulful audava raga derived from Todi; famous for Tyagaraja's 'Nagumomu'."
+  },
+  {
+    "id": "hamsadhwani",
+    "name": "Hamsadhwani",
+    "type": "janya",
+    "parent_melakarta": 29,
+    "parent_name": "Dheerashankarabharanam",
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "P",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "P",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": "G3",
+    "samvadi": "N3",
+    "rasa": [
+      "bhakti",
+      "mangala"
+    ],
+    "time_of_day": "evening",
+    "description": "Popular pentatonic raga; Dikshitar's 'Vatapi Ganapatim' is the iconic composition."
+  },
+  {
+    "id": "kambhoji",
+    "name": "Kambhoji",
+    "type": "janya",
+    "parent_melakarta": 28,
+    "parent_name": "Harikambhoji",
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "M1",
+      "P",
+      "D2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D2",
+      "P",
+      "M1",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": "G3",
+    "samvadi": "N3",
+    "rasa": [
+      "bhakti",
+      "vira",
+      "shringara"
+    ],
+    "time_of_day": "evening",
+    "description": "Grand raga with majestic quality; used in many major compositions."
+  },
+  {
+    "id": "kedaragowla",
+    "name": "Kedaragowla",
+    "type": "janya",
+    "parent_melakarta": 29,
+    "parent_name": "Dheerashankarabharanam",
+    "arohana": [
+      "S",
+      "M1",
+      "R2",
+      "G3",
+      "M1",
+      "P",
+      "D2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D2",
+      "P",
+      "M1",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": "M1",
+    "samvadi": "P",
+    "rasa": [
+      "bhakti",
+      "karuna"
+    ],
+    "time_of_day": "evening",
+    "description": "Vakra (zigzag) raga with a characteristic prayoga; deeply devotional."
+  },
+  {
+    "id": "khamas",
+    "name": "Khamas",
+    "type": "janya",
+    "parent_melakarta": 28,
+    "parent_name": "Harikambhoji",
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "M1",
+      "P",
+      "D2",
+      "P",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D2",
+      "P",
+      "M1",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": "G3",
+    "samvadi": "D2",
+    "rasa": [
+      "shringara",
+      "bhakti"
+    ],
+    "time_of_day": "night",
+    "description": "Raga with a distinctly romantic quality; often used in compositions addressed to Lord Vishnu."
+  },
+  {
+    "id": "madhyamavathi",
+    "name": "Madhyamavathi",
+    "type": "janya",
+    "parent_melakarta": 28,
+    "parent_name": "Harikambhoji",
+    "arohana": [
+      "S",
+      "R2",
+      "M1",
+      "P",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "P",
+      "M1",
+      "R2",
+      "S"
+    ],
+    "vadi": "M1",
+    "samvadi": "S",
+    "rasa": [
+      "bhakti",
+      "karuna"
+    ],
+    "time_of_day": "anytime",
+    "description": "Powerful audava raga; Purandaradasa's 'Bhagya da Lakshmi Baramma' is iconic."
+  },
+  {
+    "id": "malahari",
+    "name": "Malahari",
+    "type": "janya",
+    "parent_melakarta": 15,
+    "parent_name": "Mayamalavagowla",
+    "arohana": [
+      "S",
+      "R1",
+      "M1",
+      "P",
+      "D1",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "D1",
+      "P",
+      "M1",
+      "R1",
+      "S"
+    ],
+    "vadi": "M1",
+    "samvadi": "S",
+    "rasa": [
+      "bhakti",
+      "mangala"
+    ],
+    "time_of_day": "morning",
+    "description": "Associated with dawn and auspicious beginnings; traditionally for Ganesha compositions."
+  },
+  {
+    "id": "mohanam",
+    "name": "Mohanam",
+    "type": "janya",
+    "parent_melakarta": 28,
+    "parent_name": "Harikambhoji",
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "P",
+      "D2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "D2",
+      "P",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": "G3",
+    "samvadi": "D2",
+    "rasa": [
+      "shringara",
+      "bhakti"
+    ],
+    "time_of_day": "evening",
+    "description": "Enchanting pentatonic raga (corresponds to Bhupali in Hindustani)."
+  },
+  {
+    "id": "nattai",
+    "name": "Nattai",
+    "type": "janya",
+    "parent_melakarta": 36,
+    "parent_name": "Chalanata",
+    "arohana": [
+      "S",
+      "R3",
+      "G3",
+      "M1",
+      "P",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "P",
+      "M1",
+      "G3",
+      "R3",
+      "S"
+    ],
+    "vadi": "G3",
+    "samvadi": "N3",
+    "rasa": [
+      "vira",
+      "bhakti"
+    ],
+    "time_of_day": "morning",
+    "description": "Bold, vigorous raga; Tyagaraja's 'Jagadananda Karaka' (Pancharatna) is in Nata."
+  },
+  {
+    "id": "punnagavarali",
+    "name": "Punnagavarali",
+    "type": "janya",
+    "parent_melakarta": 51,
+    "parent_name": "Kamavardhini",
+    "arohana": [
+      "S",
+      "R1",
+      "M2",
+      "P",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "P",
+      "M2",
+      "R1",
+      "S"
+    ],
+    "vadi": "M2",
+    "samvadi": "S",
+    "rasa": [
+      "karuna",
+      "bhakti"
+    ],
+    "time_of_day": "evening",
+    "description": "Intensely soulful raga; Dikshitar's 'Akshayalinga Vibho' is celebrated."
+  },
+  {
+    "id": "revati",
+    "name": "Revati",
+    "type": "janya",
+    "parent_melakarta": 22,
+    "parent_name": "Kharaharapriya",
+    "arohana": [
+      "S",
+      "R1",
+      "M1",
+      "P",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "P",
+      "M1",
+      "R1",
+      "S"
+    ],
+    "vadi": "N2",
+    "samvadi": "M1",
+    "rasa": [
+      "bhakti",
+      "karuna"
+    ],
+    "time_of_day": "morning",
+    "description": "Simple, lyrical pentatonic raga with a devotional character."
+  },
+  {
+    "id": "sahana",
+    "name": "Sahana",
+    "type": "janya",
+    "parent_melakarta": 28,
+    "parent_name": "Harikambhoji",
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "M1",
+      "P",
+      "D2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D2",
+      "N2",
+      "P",
+      "M1",
+      "G3",
+      "M1",
+      "R2",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": "G3",
+    "samvadi": "D2",
+    "rasa": [
+      "bhakti",
+      "karuna",
+      "shringara"
+    ],
+    "time_of_day": "evening",
+    "description": "Deeply expressive vakra raga; Tyagaraja's 'Nidhi Chala Sukhama' is among its gems."
+  },
+  {
+    "id": "saveri",
+    "name": "Saveri",
+    "type": "janya",
+    "parent_melakarta": 15,
+    "parent_name": "Mayamalavagowla",
+    "arohana": [
+      "S",
+      "R1",
+      "M1",
+      "P",
+      "D1",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D1",
+      "P",
+      "M1",
+      "G3",
+      "R1",
+      "S"
+    ],
+    "vadi": "R1",
+    "samvadi": "D1",
+    "rasa": [
+      "bhakti",
+      "shanta"
+    ],
+    "time_of_day": "morning",
+    "description": "Serene morning raga; corresponds to Asavari in Hindustani."
+  },
+  {
+    "id": "sindhu_bhairavi",
+    "name": "Sindhu Bhairavi",
+    "type": "janya",
+    "parent_melakarta": 20,
+    "parent_name": "Natabhairavi",
+    "arohana": [
+      "S",
+      "R2",
+      "G2",
+      "M1",
+      "P",
+      "D1",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D1",
+      "P",
+      "M1",
+      "G2",
+      "R2",
+      "S"
+    ],
+    "vadi": "M1",
+    "samvadi": "S",
+    "rasa": [
+      "karuna",
+      "shringara"
+    ],
+    "time_of_day": "late_night",
+    "description": "Emotionally charged raga used in light classical and film music context."
+  },
+  {
+    "id": "sri_ragam",
+    "name": "Sri",
+    "type": "janya",
+    "parent_melakarta": 22,
+    "parent_name": "Kharaharapriya",
+    "arohana": [
+      "S",
+      "R2",
+      "M1",
+      "P",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "P",
+      "M1",
+      "R2",
+      "G2",
+      "R2",
+      "S"
+    ],
+    "vadi": "P",
+    "samvadi": "R2",
+    "rasa": [
+      "bhakti",
+      "vira"
+    ],
+    "time_of_day": "evening",
+    "description": "A grand raga of great antiquity; Tyagaraja's Pancharatna 'Endaro Mahanubhavulu' is in Sri."
+  },
+  {
+    "id": "suddha_saveri",
+    "name": "Suddha Saveri",
+    "type": "janya",
+    "parent_melakarta": 28,
+    "parent_name": "Harikambhoji",
+    "arohana": [
+      "S",
+      "R2",
+      "M1",
+      "P",
+      "D2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "D2",
+      "P",
+      "M1",
+      "R2",
+      "S"
+    ],
+    "vadi": "R2",
+    "samvadi": "D2",
+    "rasa": [
+      "shanta",
+      "bhakti"
+    ],
+    "time_of_day": "morning",
+    "description": "Bright, serene pentatonic raga with a morning quality."
+  },
+  {
+    "id": "varamu",
+    "name": "Varamu",
+    "type": "janya",
+    "parent_melakarta": 8,
+    "parent_name": "Hanumatodi",
+    "arohana": [
+      "S",
+      "G2",
+      "M1",
+      "P",
+      "D1",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D1",
+      "P",
+      "M1",
+      "G2",
+      "S"
+    ],
+    "vadi": "M1",
+    "samvadi": "S",
+    "rasa": [
+      "karuna",
+      "bhakti"
+    ],
+    "time_of_day": "morning",
+    "description": "Devotional Todi-family raga used in many Annamacharya compositions."
+  },
+  {
+    "id": "nattakurinji",
+    "name": "Nattakurinji",
+    "type": "janya",
+    "parent_melakarta": 29,
+    "parent_name": "Dheerashankarabharanam",
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "M1",
+      "P",
+      "D2",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D2",
+      "P",
+      "M1",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": "G3",
+    "samvadi": "D2",
+    "rasa": [
+      "bhakti",
+      "shringara"
+    ],
+    "time_of_day": "afternoon",
+    "description": "Melodic raga of Shankarabharanam family; Tyagaraja's 'Etavunara' is iconic."
+  },
+  {
+    "id": "amritavarshini",
+    "name": "Amritavarshini",
+    "type": "janya",
+    "parent_melakarta": 65,
+    "parent_name": "Mechakalyani",
+    "arohana": [
+      "S",
+      "G3",
+      "M2",
+      "P",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "P",
+      "M2",
+      "G3",
+      "S"
+    ],
+    "vadi": "M2",
+    "samvadi": "S",
+    "rasa": [
+      "karuna",
+      "adbhuta"
+    ],
+    "time_of_day": "rainy_season",
+    "description": "Rare raga traditionally believed to invoke rainfall; Dikshitar's 'Anandamritakarshini'."
+  },
+  {
+    "id": "kapi",
+    "name": "Kapi",
+    "type": "janya",
+    "parent_melakarta": 22,
+    "parent_name": "Kharaharapriya",
+    "arohana": [
+      "S",
+      "R2",
+      "G2",
+      "M1",
+      "P",
+      "D2",
+      "N2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N2",
+      "D2",
+      "N2",
+      "P",
+      "D2",
+      "M1",
+      "G2",
+      "R2",
+      "S"
+    ],
+    "vadi": "D2",
+    "samvadi": "G2",
+    "rasa": [
+      "shringara",
+      "bhakti"
+    ],
+    "time_of_day": "night",
+    "description": "A vakra raga with a gentle, lyrical quality often used in padams and javalis."
+  },
+  {
+    "id": "begada",
+    "name": "Begada",
+    "type": "janya",
+    "parent_melakarta": 29,
+    "parent_name": "Dheerashankarabharanam",
+    "arohana": [
+      "S",
+      "R2",
+      "G3",
+      "M1",
+      "P",
+      "D2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D2",
+      "P",
+      "M1",
+      "G3",
+      "M1",
+      "R2",
+      "G3",
+      "R2",
+      "S"
+    ],
+    "vadi": "M1",
+    "samvadi": "P",
+    "rasa": [
+      "bhakti",
+      "vira"
+    ],
+    "time_of_day": "afternoon",
+    "description": "Characteristic vakra prayogas give this raga a distinctive grandeur."
+  },
+  {
+    "id": "arabhi",
+    "name": "Arabhi",
+    "type": "janya",
+    "parent_melakarta": 29,
+    "parent_name": "Dheerashankarabharanam",
+    "arohana": [
+      "S",
+      "R2",
+      "M1",
+      "P",
+      "D2",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D2",
+      "P",
+      "M1",
+      "R2",
+      "S"
+    ],
+    "vadi": "P",
+    "samvadi": "S",
+    "rasa": [
+      "vira",
+      "bhakti"
+    ],
+    "time_of_day": "morning",
+    "description": "Grand audava raga; Tyagaraja's Pancharatna 'Sadhinchene' is in Arabhi."
+  },
+  {
+    "id": "gowla",
+    "name": "Gowla",
+    "type": "janya",
+    "parent_melakarta": 15,
+    "parent_name": "Mayamalavagowla",
+    "arohana": [
+      "S",
+      "R1",
+      "G3",
+      "M1",
+      "P",
+      "D1",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D1",
+      "N3",
+      "P",
+      "M1",
+      "G3",
+      "R1",
+      "S"
+    ],
+    "vadi": "M1",
+    "samvadi": "S",
+    "rasa": [
+      "bhakti",
+      "karuna"
+    ],
+    "time_of_day": "morning",
+    "description": "Traditional raga associated with morning practice; Tyagaraja's Pancharatna 'Dudukugala'."
+  },
+  {
+    "id": "varali",
+    "name": "Varali",
+    "type": "janya",
+    "parent_melakarta": 39,
+    "parent_name": "Jhalavarali",
+    "arohana": [
+      "S",
+      "R1",
+      "G2",
+      "M2",
+      "P",
+      "D1",
+      "N3",
+      "Ṡ"
+    ],
+    "avarohana": [
+      "Ṡ",
+      "N3",
+      "D1",
+      "P",
+      "M2",
+      "G2",
+      "R1",
+      "S"
+    ],
+    "vadi": "G2",
+    "samvadi": "N3",
+    "rasa": [
+      "karuna",
+      "bhakti"
+    ],
+    "time_of_day": "early_morning",
+    "description": "Serious, introspective raga; Tyagaraja's Pancharatna 'Kana Kana Ruchira' is in Varali."
+  }
+]

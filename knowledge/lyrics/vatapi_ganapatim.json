@@ -1,0 +1,26 @@
+{
+  "kriti_id": "vatapi_ganapatim",
+  "ragam": "Hamsadhwani",
+  "talam": "Adi",
+  "composer": "muthuswami_dikshitar",
+  "language": "Sanskrit",
+  "script": "sa",
+  "pallavi": {
+    "original": "वातापि गणपतिं भजेऽहं वारणास्यं वरप्रदम्",
+    "iast": "vātāpi gaṇapatiṃ bhaje'haṃ vāraṇāsyaṃ varapradam",
+    "meaning": "I worship Ganapati of Vatapi (Badami), the elephant-faced one who grants boons."
+  },
+  "anupallavi": {
+    "original": "भूतादि संसेवित चरणं भूसुर विनुत चरणम्",
+    "iast": "bhūtādi saṃsevita caraṇaṃ bhūsura vinuta caraṇam",
+    "meaning": "Whose feet are served by Bhuta (elemental beings) and praised by Bhusuras (brahmins)."
+  },
+  "charanams": [
+    {
+      "number": 1,
+      "original": "विकट कविजन विधित वरवेश विघ्नविनाशन विश्वविनायक",
+      "iast": "vikaṭa kavijana vidhita varavēśa vighnavināśana viśvavināyaka",
+      "meaning": "Praised by great and playful poets, destroyer of obstacles, leader of the universe."
+    }
+  ]
+}
