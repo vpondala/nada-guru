@@ -10,8 +10,6 @@ import (
 	"google.golang.org/adk/agent"
 	"google.golang.org/adk/agent/llmagent"
 	"google.golang.org/adk/model/gemini"
-	"google.golang.org/adk/tool"
-	"google.golang.org/adk/tool/geminitool"
 	"google.golang.org/genai"
 )
 
@@ -62,6 +60,10 @@ func New(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 	if err != nil {
 		return nil, err
 	}
+	searchAgent, err := NewSearchAgent()
+	if err != nil {
+		return nil, err
+	}
 
 	a, err := llmagent.New(llmagent.Config{
 		Name:        "nada_guru",
@@ -76,9 +78,7 @@ func New(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 			lyricsAgent,
 			transliterationAgent,
 			youtubeAgent,
-		},
-		Tools: []tool.Tool{
-			geminitool.GoogleSearch{},
+			searchAgent,
 		},
 		BeforeAgentCallbacks: []agent.BeforeAgentCallback{
 			func(ctx agent.CallbackContext) (*genai.Content, error) {

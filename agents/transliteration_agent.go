@@ -13,7 +13,6 @@ import (
 	"google.golang.org/adk/model/gemini"
 	"google.golang.org/adk/tool"
 	"google.golang.org/adk/tool/functiontool"
-	"google.golang.org/adk/tool/geminitool"
 	"google.golang.org/genai"
 )
 
@@ -78,6 +77,7 @@ func NewTransliterationAgent(store *knowledge.KnowledgeStore) (agent.Agent, erro
 			Notes:          result.Notes,
 		}, nil
 	})
+	searchAgent, err := NewSearchAgent()
 	if err != nil {
 		return nil, err
 	}
@@ -87,9 +87,11 @@ func NewTransliterationAgent(store *knowledge.KnowledgeStore) (agent.Agent, erro
 		Model:       model,
 		Description: "Transliterates Carnatic lyrics from Sanskrit, Tamil, or Kannada into Telugu script. Presents output as a side-by-side table.",
 		Instruction: transliterationInstruction,
+		SubAgents: []agent.Agent{
+			searchAgent,
+		},
 		Tools: []tool.Tool{
 			transliterateTool,
-			geminitool.GoogleSearch{},
 		},
 		BeforeAgentCallbacks: []agent.BeforeAgentCallback{
 			func(ctx agent.CallbackContext) (*genai.Content, error) {

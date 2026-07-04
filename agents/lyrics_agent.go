@@ -13,7 +13,6 @@ import (
 	"google.golang.org/adk/model/gemini"
 	"google.golang.org/adk/tool"
 	"google.golang.org/adk/tool/functiontool"
-	"google.golang.org/adk/tool/geminitool"
 	"google.golang.org/genai"
 )
 
@@ -131,6 +130,7 @@ func NewLyricsAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 			Error string `json:"error,omitempty"`
 		}{Error: err.Error()}, nil
 	})
+	searchAgent, err := NewSearchAgent()
 	if err != nil {
 		return nil, err
 	}
@@ -140,10 +140,12 @@ func NewLyricsAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 		Model:       model,
 		Description: "Retrieves full lyrics (Pallavi, Anupallavi, Charanams) for a Carnatic composition in original script with IAST and meaning.",
 		Instruction: lyricsInstruction,
+		SubAgents: []agent.Agent{
+			searchAgent,
+		},
 		Tools: []tool.Tool{
 			getLyricsTool,
 			scrapeLyricsTool,
-			geminitool.GoogleSearch{},
 		},
 		BeforeAgentCallbacks: []agent.BeforeAgentCallback{
 			func(ctx agent.CallbackContext) (*genai.Content, error) {

@@ -13,7 +13,6 @@ import (
 	"google.golang.org/adk/model/gemini"
 	"google.golang.org/adk/tool"
 	"google.golang.org/adk/tool/functiontool"
-	"google.golang.org/adk/tool/geminitool"
 	"google.golang.org/genai"
 )
 
@@ -99,6 +98,7 @@ func NewComposerAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 			Error string `json:"error,omitempty"`
 		}{Results: out}, nil
 	})
+	searchAgent, err := NewSearchAgent()
 	if err != nil {
 		return nil, err
 	}
@@ -108,10 +108,12 @@ func NewComposerAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 		Model:       model,
 		Description: "Provides biographical and compositional details about Carnatic music composers.",
 		Instruction: composerInstruction,
+		SubAgents: []agent.Agent{
+			searchAgent,
+		},
 		Tools: []tool.Tool{
 			lookupComposerTool,
 			searchLangTool,
-			geminitool.GoogleSearch{},
 		},
 		BeforeAgentCallbacks: []agent.BeforeAgentCallback{
 			func(ctx agent.CallbackContext) (*genai.Content, error) {

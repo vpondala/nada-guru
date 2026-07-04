@@ -13,7 +13,6 @@ import (
 	"google.golang.org/adk/model/gemini"
 	"google.golang.org/adk/tool"
 	"google.golang.org/adk/tool/functiontool"
-	"google.golang.org/adk/tool/geminitool"
 	"google.golang.org/genai"
 )
 
@@ -140,6 +139,7 @@ func NewKritiAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 			Error    string `json:"error,omitempty"`
 		}{ID: k.ID, Name: k.Name, Ragam: k.Ragam, Talam: k.Talam, Composer: k.Composer}, nil
 	})
+	searchAgent, err := NewSearchAgent()
 	if err != nil {
 		return nil, err
 	}
@@ -149,10 +149,12 @@ func NewKritiAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 		Model:       model,
 		Description: "Finds Carnatic compositions by raga, tala, composer, or language. Returns metadata and offers to fetch lyrics or transliterate.",
 		Instruction: kritiInstruction,
+		SubAgents: []agent.Agent{
+			searchAgent,
+		},
 		Tools: []tool.Tool{
 			searchKritisTool,
 			lookupKritiTool,
-			geminitool.GoogleSearch{},
 		},
 		BeforeAgentCallbacks: []agent.BeforeAgentCallback{
 			func(ctx agent.CallbackContext) (*genai.Content, error) {

@@ -13,7 +13,6 @@ import (
 	"google.golang.org/adk/model/gemini"
 	"google.golang.org/adk/tool"
 	"google.golang.org/adk/tool/functiontool"
-	"google.golang.org/adk/tool/geminitool"
 	"google.golang.org/genai"
 )
 
@@ -99,6 +98,7 @@ func NewTalaAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 			Error string `json:"error,omitempty"`
 		}{Results: out}, nil
 	})
+	searchAgent, err := NewSearchAgent()
 	if err != nil {
 		return nil, err
 	}
@@ -108,10 +108,12 @@ func NewTalaAgent(store *knowledge.KnowledgeStore) (agent.Agent, error) {
 		Model:       model,
 		Description: "Answers questions about Carnatic talas — structure, angas, beat counts, clap patterns, and example compositions.",
 		Instruction: talaInstruction,
+		SubAgents: []agent.Agent{
+			searchAgent,
+		},
 		Tools: []tool.Tool{
 			lookupTalaTool,
 			searchBeatsTool,
-			geminitool.GoogleSearch{},
 		},
 		BeforeAgentCallbacks: []agent.BeforeAgentCallback{
 			func(ctx agent.CallbackContext) (*genai.Content, error) {
