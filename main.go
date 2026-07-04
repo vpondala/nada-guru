@@ -33,11 +33,19 @@ func main() {
 
 	// Configure structured logging based on LOG_FORMAT env var.
 	logFormat := os.Getenv("LOG_FORMAT")
+	opts := &slog.HandlerOptions{
+		ReplaceAttr: func(groups []string, a slog.Attr) slog.Attr {
+			if a.Key == slog.TimeKey {
+				return slog.Attr{Key: "ts", Value: a.Value}
+			}
+			return a
+		},
+	}
 	var handler slog.Handler
 	if logFormat == "json" {
-		handler = slog.NewJSONHandler(os.Stderr, nil)
+		handler = slog.NewJSONHandler(os.Stderr, opts)
 	} else {
-		handler = slog.NewTextHandler(os.Stderr, nil)
+		handler = slog.NewTextHandler(os.Stderr, opts)
 	}
 	slog.SetDefault(slog.New(handler))
 
