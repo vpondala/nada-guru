@@ -16,7 +16,7 @@ import (
 	"google.golang.org/genai"
 )
 
-const youtubeModelName = "gemini-3.1-pro"
+const youtubeModelName = "gemini-3.1-pro-preview"
 
 const youtubeInstruction = `You are Nāda Guru's YouTube Analyser.
 When a YouTube URL is detected, run the full analysis pipeline automatically.
